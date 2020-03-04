@@ -1,0 +1,140 @@
+package com.project.Aperetif.Model;
+
+import javax.persistence.*;
+import java.util.Objects;
+import java.util.Set;
+
+@Entity
+@Table(name = "Wine")
+public class Wine {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Long id;
+    private String nameWine;
+    private Integer rating;
+
+    @ElementCollection(targetClass = Role.class, fetch = FetchType.EAGER)
+    @CollectionTable(name="type_wine",joinColumns = @JoinColumn(name = "wine_id"))
+    @Enumerated(EnumType.STRING)
+    private Set<TypeWine> typeWines;
+
+    private String describe;
+
+    private Integer quantity;
+
+    private String filename;
+
+    private String dateAdded;
+
+    public Wine(Long id,String nameWine, Integer rating, Set<TypeWine> typeWines, String describe, Integer quantity, String filename, String dateAdded) {
+        this.nameWine = nameWine;
+        this.rating = rating;
+        this.typeWines = typeWines;
+        this.describe = describe;
+        this.quantity = quantity;
+        this.filename = filename;
+        this.dateAdded = dateAdded;
+        this.id = id;
+    }
+
+    public Wine() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNameWine() {
+        return nameWine;
+    }
+
+    public void setNameWine(String nameWine) {
+        this.nameWine = nameWine;
+    }
+
+    public Integer getRating() {
+        return rating;
+    }
+
+    public void setRating(Integer rating) {
+        this.rating = rating;
+    }
+
+    public Set<TypeWine> getTypeWines() {
+        return typeWines;
+    }
+
+    public void setTypeWines(Set<TypeWine> typeWines) {
+        this.typeWines = typeWines;
+    }
+
+    public String getDescribe() {
+        return describe;
+    }
+
+    public void setDescribe(String describe) {
+        this.describe = describe;
+    }
+
+    public Integer getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(Integer quantity) {
+        this.quantity = quantity;
+    }
+
+    public String getFilename() {
+        return filename;
+    }
+
+    public void setFilename(String filename) {
+        this.filename = filename;
+    }
+
+    public String getDateAdded() {
+        return dateAdded;
+    }
+
+    public void setDateAdded(String dateAdded) {
+        this.dateAdded = dateAdded;
+    }
+
+    @Override
+    public String toString() {
+        return "Wine{" +
+                "id=" + id +
+                ", nameWine='" + nameWine + '\'' +
+                ", rating=" + rating +
+                ", typeWines=" + typeWines +
+                ", describe='" + describe + '\'' +
+                ", quantity=" + quantity +
+                ", filename='" + filename + '\'' +
+                ", dateAdded='" + dateAdded + '\'' +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Wine wine = (Wine) o;
+        return Objects.equals(id, wine.id) &&
+                Objects.equals(nameWine, wine.nameWine) &&
+                Objects.equals(rating, wine.rating) &&
+                Objects.equals(typeWines, wine.typeWines) &&
+                Objects.equals(describe, wine.describe) &&
+                Objects.equals(quantity, wine.quantity) &&
+                Objects.equals(filename, wine.filename) &&
+                Objects.equals(dateAdded, wine.dateAdded);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, nameWine, rating, typeWines, describe, quantity, filename, dateAdded);
+    }
+}
