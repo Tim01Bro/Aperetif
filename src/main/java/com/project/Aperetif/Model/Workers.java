@@ -1,23 +1,18 @@
 package com.project.Aperetif.Model;
 
-import javax.persistence.*;
 import java.util.Objects;
 import java.util.Set;
 
-@Entity
-@Table(name = "Workers")
+
 public class Workers {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+
     private Long id;
     private String nameWorker;
     private String sonameWorker;
     private String filename;
     private String describe;
 
-    @ElementCollection(targetClass = Role.class, fetch = FetchType.EAGER)
-    @CollectionTable(name="position_worker",joinColumns = @JoinColumn(name = "worker_id"))
-    @Enumerated(EnumType.STRING)
+
     private Set<PositionWorker> positionWorkers;
 
     private String linkFacebook;

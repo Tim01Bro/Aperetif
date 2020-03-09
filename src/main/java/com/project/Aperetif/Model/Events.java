@@ -1,22 +1,96 @@
 package com.project.Aperetif.Model;
 
-import javax.persistence.*;
 
-@Entity
-@Table(name = "Events")
+import java.util.Objects;
+
 public class Events {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private String nameEvent;
 
     private String DescribeEvent;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    private EventDetails eventDetails;
+    private Integer eventDetailsId;
 
-    @OneToOne(cascade = CascadeType.ALL)
-    private EventsVenue eventsVenue;
+    private Integer eventsVenueId;
+
+    public Events(Long id, String nameEvent, String describeEvent, Integer eventDetailsId, Integer eventsVenueId) {
+        this.id = id;
+        this.nameEvent = nameEvent;
+        DescribeEvent = describeEvent;
+        this.eventDetailsId = eventDetailsId;
+        this.eventsVenueId = eventsVenueId;
+    }
+
+    public Events() {
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public String getNameEvent() {
+        return nameEvent;
+    }
+
+    public void setNameEvent(String nameEvent) {
+        this.nameEvent = nameEvent;
+    }
+
+    public String getDescribeEvent() {
+        return DescribeEvent;
+    }
+
+    public void setDescribeEvent(String describeEvent) {
+        DescribeEvent = describeEvent;
+    }
+
+    public Integer getEventDetailsId() {
+        return eventDetailsId;
+    }
+
+    public void setEventDetailsId(Integer eventDetailsId) {
+        this.eventDetailsId = eventDetailsId;
+    }
+
+    public Integer getEventsVenueId() {
+        return eventsVenueId;
+    }
+
+    public void setEventsVenueId(Integer eventsVenueId) {
+        this.eventsVenueId = eventsVenueId;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Events events = (Events) o;
+        return Objects.equals(id, events.id) &&
+                Objects.equals(nameEvent, events.nameEvent) &&
+                Objects.equals(DescribeEvent, events.DescribeEvent) &&
+                Objects.equals(eventDetailsId, events.eventDetailsId) &&
+                Objects.equals(eventsVenueId, events.eventsVenueId);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(id, nameEvent, DescribeEvent, eventDetailsId, eventsVenueId);
+    }
+
+    @Override
+    public String toString() {
+        return "Events{" +
+                "id=" + id +
+                ", nameEvent='" + nameEvent + '\'' +
+                ", DescribeEvent='" + DescribeEvent + '\'' +
+                ", eventDetailsId=" + eventDetailsId +
+                ", eventsVenueId=" + eventsVenueId +
+                '}';
+    }
 }

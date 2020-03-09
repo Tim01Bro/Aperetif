@@ -1,14 +1,10 @@
 package com.project.Aperetif.Model;
 
-import javax.persistence.*;
-import java.util.Objects;
+ import java.util.Objects;
 
-@Entity
-@Table(name = "GetInTouch")
+
 public class GetInTouch {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private String nameSender;

@@ -1,14 +1,11 @@
 package com.project.Aperetif.Model;
 
-import javax.persistence.*;
-import java.util.Objects;
+ import java.util.Objects;
 
-@Entity
-@Table(name = "Venue")
+
 public class EventsVenue {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+
     private Long id;
 
     private String PlaceEvent;
@@ -19,16 +16,15 @@ public class EventsVenue {
 
     private String phoneEvent;
 
-    @OneToOne(cascade = CascadeType.ALL,mappedBy = "eventsVenue")
-    private Events events;
+    private Integer eventsId;
 
     public EventsVenue(Long id,String placeEvent, String addressEvent,
-                       String webSiteEvent, String phoneEvent, Events events) {
+                       String webSiteEvent, String phoneEvent, Integer eventsId) {
         PlaceEvent = placeEvent;
         AddressEvent = addressEvent;
         this.webSiteEvent = webSiteEvent;
         this.phoneEvent = phoneEvent;
-        this.events = events;
+        this.eventsId = eventsId;
         this.id = id;
     }
 
@@ -75,12 +71,12 @@ public class EventsVenue {
         this.phoneEvent = phoneEvent;
     }
 
-    public Events getEvents() {
-        return events;
+    public Integer getEvents() {
+        return eventsId;
     }
 
-    public void setEvents(Events events) {
-        this.events = events;
+    public void setEvents(Integer eventsId) {
+        this.eventsId = eventsId;
     }
 
     @Override
@@ -91,7 +87,7 @@ public class EventsVenue {
                 ", AddressEvent='" + AddressEvent + '\'' +
                 ", webSiteEvent='" + webSiteEvent + '\'' +
                 ", phoneEvent='" + phoneEvent + '\'' +
-                ", events=" + events +
+                ", events=" + eventsId +
                 '}';
     }
 
@@ -105,11 +101,11 @@ public class EventsVenue {
                 Objects.equals(AddressEvent, that.AddressEvent) &&
                 Objects.equals(webSiteEvent, that.webSiteEvent) &&
                 Objects.equals(phoneEvent, that.phoneEvent) &&
-                Objects.equals(events, that.events);
+                Objects.equals(eventsId, that.eventsId);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, PlaceEvent, AddressEvent, webSiteEvent, phoneEvent, events);
+        return Objects.hash(id, PlaceEvent, AddressEvent, webSiteEvent, phoneEvent, eventsId);
     }
 }

@@ -1,21 +1,17 @@
 package com.project.Aperetif.Model;
 
-import javax.persistence.*;
 import java.util.Objects;
 import java.util.Set;
 
-@Entity
-@Table(name = "Wine")
+
 public class Wine {
-    @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+
     private Long id;
+
     private String nameWine;
+
     private Integer rating;
 
-    @ElementCollection(targetClass = Role.class, fetch = FetchType.EAGER)
-    @CollectionTable(name="type_wine",joinColumns = @JoinColumn(name = "wine_id"))
-    @Enumerated(EnumType.STRING)
     private Set<TypeWine> typeWines;
 
     private String describe;
