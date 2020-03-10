@@ -1,3 +1,18 @@
 
 2020-03-11 01:29:32 INFO  WineDaoImpl:44 - Get wine by name =
 2020-03-11 01:29:35 INFO  WineDaoImpl:51 - Get all wine to list
+2020-03-11 01:51:24 INFO  UserDaoImpl:49 - Get all feedback
+2020-03-11 01:51:24 INFO  UserDaoImpl:42 - Get one feedback by name = Tim
+2020-03-11 01:51:25 INFO  UserDaoImpl:28 - Save feedback to database to table feedback
+2020-03-11 01:51:25 INFO  UserDaoImpl:35 - Get one feedback by id = 1
+2020-03-11 01:52:08 INFO  UserDaoImpl:49 - Get all feedback
+2020-03-11 01:52:08 INFO  UserDaoImpl:42 - Get one feedback by name = Tim
+2020-03-11 01:52:09 INFO  UserDaoImpl:28 - Save feedback to database to table feedback
+2020-03-11 01:52:09 INFO  UserDaoImpl:35 - Get one feedback by id = 1
+2020-03-11 01:53:25 INFO  UserDaoImpl:49 - Get all feedback
+2020-03-11 01:53:35 INFO  UserDaoImpl:42 - Get one feedback by name = Tim
+2020-03-11 01:53:44 INFO  UserDaoImpl:49 - Get all feedback
+2020-03-11 01:53:44 INFO  UserDaoImpl:42 - Get one feedback by name = Tim
+2020-03-11 01:53:45 INFO  UserDaoImpl:28 - Save feedback to database to table feedback
+2020-03-11 01:53:45 INFO  UserDaoImpl:35 - Get one feedback by id = 1
+2020-03-11 01:54:10 INFO  UserDaoImpl:56 - Delete feedback by id = 1

@@ -1,17 +1,14 @@
 package com.project.Aperetif.Dao.Implementations;
 
 import com.project.Aperetif.Dao.Interfaces.UserDao;
-import com.project.Aperetif.Model.Role;
+import com.project.Aperetif.Model.enums.Role;
 import com.project.Aperetif.Model.Users;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import java.util.List;
-
-import static org.junit.Assert.*;
 
 public class UserDaoImplTest {
 

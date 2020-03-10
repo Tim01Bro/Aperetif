@@ -56,4 +56,9 @@ public class UserDaoImpl implements UserDao {
         log.info("Delete user by id =" + id);
         return jdbcTemplate.update(sql,id);
     }
+
+    @Override
+    public int update(Users users) {
+        return 0;
+    }
 }

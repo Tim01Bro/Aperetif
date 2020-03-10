@@ -1,4 +1,4 @@
-package com.project.Aperetif.Model;
+package com.project.Aperetif.Model.enums;
 
 public enum  PositionWorker {
     WINEMAKER_JUNIOR("Winemaker Junior"),WINEMAKER_SENIOR("Senior Winemaker"),WINE_CRITIC("Wine Critic");

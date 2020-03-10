@@ -1,5 +1,7 @@
 package com.project.Aperetif.Model;
 
+import com.project.Aperetif.Model.enums.Role;
+
 import java.util.Objects;
 
 public class Users {

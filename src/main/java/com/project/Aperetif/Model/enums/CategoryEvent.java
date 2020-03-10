@@ -1,4 +1,4 @@
-package com.project.Aperetif.Model;
+package com.project.Aperetif.Model.enums;
 
 public enum  CategoryEvent {
     WINE_TASTING("Wine tasting"),WINE_TOUR("Wine tour");

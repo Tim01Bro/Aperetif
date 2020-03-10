@@ -1,4 +1,4 @@
-package com.project.Aperetif.Model;
+package com.project.Aperetif.Model.enums;
 
 public enum  Role {
     ADMIN(1),USER(2);

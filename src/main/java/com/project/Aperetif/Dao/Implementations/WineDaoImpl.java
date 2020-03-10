@@ -58,4 +58,9 @@ public class WineDaoImpl implements WineDao {
         log.info("Delete wine by id = " + id);
         return jdbcTemplate.update(sql,id);
     }
+
+    @Override
+    public int update(Wine wine) {
+        return 0;
+    }
 }

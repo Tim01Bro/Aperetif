@@ -1,5 +1,7 @@
 package com.project.Aperetif.Model;
 
+import com.project.Aperetif.Model.enums.CategoryEvent;
+
 import java.util.Objects;
 import java.util.Set;
 

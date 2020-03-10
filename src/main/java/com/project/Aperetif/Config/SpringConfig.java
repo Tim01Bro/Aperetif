@@ -1,7 +1,9 @@
 package com.project.Aperetif.Config;
 
+import com.project.Aperetif.Dao.Implementations.FeedBackDaoImpl;
 import com.project.Aperetif.Dao.Implementations.UserDaoImpl;
 import com.project.Aperetif.Dao.Implementations.WineDaoImpl;
+import com.project.Aperetif.Dao.Interfaces.FeedBackDao;
 import com.project.Aperetif.Dao.Interfaces.UserDao;
 import com.project.Aperetif.Dao.Interfaces.WineDao;
 import org.springframework.context.annotation.Bean;
@@ -32,6 +34,11 @@ public class SpringConfig {
     @Bean
     public WineDao getWineDao(){
         return new WineDaoImpl(getDataSource());
+    }
+
+    @Bean
+    public FeedBackDao getFeedBackDao(){
+        return new FeedBackDaoImpl(getDataSource());
     }
 
 }

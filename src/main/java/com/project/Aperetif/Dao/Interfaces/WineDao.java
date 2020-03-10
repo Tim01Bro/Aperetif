@@ -16,4 +16,6 @@ public interface WineDao {
 
     int deleteWine(Long id);
 
+    int update(Wine wine);
+
 }

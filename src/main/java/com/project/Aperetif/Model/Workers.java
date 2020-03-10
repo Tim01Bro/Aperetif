@@ -1,5 +1,7 @@
 package com.project.Aperetif.Model;
 
+import com.project.Aperetif.Model.enums.PositionWorker;
+
 import java.util.Objects;
 import java.util.Set;
 

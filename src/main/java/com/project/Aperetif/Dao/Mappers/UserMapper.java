@@ -1,6 +1,6 @@
 package com.project.Aperetif.Dao.Mappers;
 
-import com.project.Aperetif.Model.Role;
+import com.project.Aperetif.Model.enums.Role;
 import com.project.Aperetif.Model.Users;
 
 import org.springframework.jdbc.core.RowMapper;
