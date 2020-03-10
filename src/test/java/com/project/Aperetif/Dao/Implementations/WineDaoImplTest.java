@@ -54,4 +54,10 @@ public class WineDaoImplTest {
     public void deleteWine() {
         assertTrue(wineDao.deleteWine(1L)>0);
     }
+    @Test
+    public void updateWine() {
+        Wine wine = wineDao.getWineById(1L);
+        wine.setNameWine("JACKY");
+        assertTrue(wineDao.update(wine)>0);
+    }
 }

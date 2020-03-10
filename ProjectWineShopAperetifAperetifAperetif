@@ -16,3 +16,8 @@
 2020-03-11 01:53:45 INFO  UserDaoImpl:28 - Save feedback to database to table feedback
 2020-03-11 01:53:45 INFO  UserDaoImpl:35 - Get one feedback by id = 1
 2020-03-11 01:54:10 INFO  UserDaoImpl:56 - Delete feedback by id = 1
+2020-03-11 01:59:57 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-11 02:00:37 INFO  WineDaoImpl:37 - Get wine by id =1
+2020-03-11 02:03:51 INFO  UserDaoImpl:27 - Save user in database to users table
+2020-03-11 02:04:51 INFO  UserDaoImpl:35 - Get user by id = 1
+2020-03-11 02:04:51 INFO  UserDaoImpl:64 - Update users

@@ -59,6 +59,10 @@ public class UserDaoImpl implements UserDao {
 
     @Override
     public int update(Users users) {
-        return 0;
+        String sql = "UPDATE users SET id = ?, username = ? , email = ?, passworduser = ?," +
+                "roleuserid=?";
+        log.info("Update users");
+        return jdbcTemplate.update(sql,users.getId(),users.getUsername(),
+                users.getEmail(),users.getPassword(),users.getRole().getIndexForDb());
     }
 }

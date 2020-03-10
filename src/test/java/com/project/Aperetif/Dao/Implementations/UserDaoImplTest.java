@@ -54,4 +54,12 @@ public class UserDaoImplTest {
         Assert.assertTrue(userDao.deleteUser(1L) > 0);
     }
 
+    @Test
+    public void updateUser() {
+        Users users = userDao.getUserById(1L);
+        users.setUsername("JO");
+        Assert.assertTrue(userDao.update(users) > 0);
+    }
+
+
 }
