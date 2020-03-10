@@ -15,7 +15,6 @@ public class EventDetails {
 
     private Integer CostEvent;
 
-
     private Set<CategoryEvent> categoryEvents;
 
     private Integer eventsId;
@@ -29,6 +28,15 @@ public class EventDetails {
         this.eventsId = eventsId;
         this.id = id;
     }
+   /* create table EventDetails(
+            id serial primary key,
+            DateStart varchar,
+            TimeStart varchar,
+            CostEvent int,
+            categoryEvent varchar,
+            EventsId int,
+            FOREIGN KEY (categoryEvent) REFERENCES categoryevent(category)
+            );*/
 
     public EventDetails() {
     }

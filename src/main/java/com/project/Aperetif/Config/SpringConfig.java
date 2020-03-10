@@ -1,5 +1,7 @@
 package com.project.Aperetif.Config;
 
+import com.project.Aperetif.Dao.Implementations.UserDaoImpl;
+import com.project.Aperetif.Dao.Interfaces.UserDao;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -20,5 +22,9 @@ public class SpringConfig {
         return dataSource;
     }
 
+    @Bean
+    public UserDao getUserDao(){
+        return new UserDaoImpl(getDataSource());
+    }
 
 }
