@@ -21,3 +21,11 @@
 2020-03-11 02:03:51 INFO  UserDaoImpl:27 - Save user in database to users table
 2020-03-11 02:04:51 INFO  UserDaoImpl:35 - Get user by id = 1
 2020-03-11 02:04:51 INFO  UserDaoImpl:64 - Update users
+2020-03-11 02:30:52 INFO  EventsDaoImpl:29 - Save events to database to table events
+2020-03-11 02:32:45 INFO  EventsDaoImpl:44 - Get one event by name = teasd
+2020-03-11 02:32:45 INFO  EventsDaoImpl:51 - Get all events
+2020-03-11 02:32:45 INFO  EventsDaoImpl:37 - Get one event by id = 1
+2020-03-11 02:32:45 INFO  EventsDaoImpl:29 - Save events to database to table events
+2020-03-11 02:33:34 INFO  EventsDaoImpl:37 - Get one event by id = 1
+2020-03-11 02:33:34 INFO  EventsDaoImpl:66 - Update event by id = 1
+2020-03-11 02:33:56 INFO  EventsDaoImpl:58 - Delete event by id = 1

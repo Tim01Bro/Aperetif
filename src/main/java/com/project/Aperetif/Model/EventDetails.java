@@ -19,15 +19,13 @@ public class EventDetails {
 
     private Set<CategoryEvent> categoryEvents;
 
-    private Integer eventsId;
 
     public EventDetails(Long id,String dateStart, String timeStart,
-                        Integer costEvent, Set<CategoryEvent> categoryEvents, Integer eventsId) {
+                        Integer costEvent, Set<CategoryEvent> categoryEvents) {
         DateStart = dateStart;
         TimeStart = timeStart;
         CostEvent = costEvent;
         this.categoryEvents = categoryEvents;
-        this.eventsId = eventsId;
         this.id = id;
     }
 
@@ -74,13 +72,6 @@ public class EventDetails {
         this.categoryEvents = categoryEvents;
     }
 
-    public Integer getEvents() {
-        return eventsId;
-    }
-
-    public void setEvents(Integer eventsId) {
-        this.eventsId = eventsId;
-    }
 
     @Override
     public String toString() {
@@ -90,7 +81,6 @@ public class EventDetails {
                 ", TimeStart='" + TimeStart + '\'' +
                 ", CostEvent=" + CostEvent +
                 ", categoryEvents=" + categoryEvents +
-                ", eventsId=" + eventsId +
                 '}';
     }
 
@@ -103,13 +93,12 @@ public class EventDetails {
                 Objects.equals(DateStart, that.DateStart) &&
                 Objects.equals(TimeStart, that.TimeStart) &&
                 Objects.equals(CostEvent, that.CostEvent) &&
-                Objects.equals(categoryEvents, that.categoryEvents) &&
-                Objects.equals(eventsId, that.eventsId);
+                Objects.equals(categoryEvents, that.categoryEvents);
     }
 
     @Override
     public int hashCode() {
         return Objects.hash(id, DateStart, TimeStart,
-                CostEvent, categoryEvents, eventsId);
+                CostEvent, categoryEvents);
     }
 }

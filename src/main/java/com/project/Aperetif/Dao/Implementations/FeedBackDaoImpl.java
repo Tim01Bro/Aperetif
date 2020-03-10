@@ -15,7 +15,7 @@ public class FeedBackDaoImpl implements FeedBackDao {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    private static final Logger log = Logger.getLogger(UserDaoImpl.class);
+    private static final Logger log = Logger.getLogger(FeedBackDaoImpl.class);
 
     public FeedBackDaoImpl(DataSource dataSource){
         jdbcTemplate = new JdbcTemplate(dataSource);
