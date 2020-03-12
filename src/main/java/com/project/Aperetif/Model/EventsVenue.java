@@ -5,7 +5,6 @@ package com.project.Aperetif.Model;
 
 public class EventsVenue {
 
-
     private Long id;
 
     private String PlaceEvent;
