@@ -1,7 +1,6 @@
 package com.project.Aperetif.Dao.Interfaces;
 
 import com.project.Aperetif.Model.Events;
-import com.project.Aperetif.Model.Users;
 
 import java.util.List;
 

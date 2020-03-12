@@ -8,7 +8,7 @@
       <ObjectId>62671</ObjectId>
       <StateNumber>13672</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>13735</IntrospectionStateNumber>
+      <IntrospectionStateNumber>13766</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
       <Relations>sequence|table|62894|62896|1
@@ -144,7 +144,7 @@ sequence|table|63061|63063|1
       <Comment>standard public schema</Comment>
       <StateNumber>360</StateNumber>
       <Owner>postgres</Owner>
-      <IntrospectionStateNumber>13736</IntrospectionStateNumber>
+      <IntrospectionStateNumber>13767</IntrospectionStateNumber>
       <Current>1</Current>
       <Visible>1</Visible>
     </schema>
@@ -300,7 +300,7 @@ sequence|table|63061|63063|1
     <table id="44" parent="24" name="eventdetails">
       <ObjectId>62896</ObjectId>
       <Owner>postgres</Owner>
-      <StateNumber>13698</StateNumber>
+      <StateNumber>13764</StateNumber>
     </table>
     <table id="45" parent="24" name="events">
       <ObjectId>62912</ObjectId>
@@ -418,14 +418,14 @@ sequence|table|63061|63063|1
       <TypeId>23</TypeId>
     </column>
     <column id="65" parent="44" name="categoryevent">
-      <Position>5</Position>
-      <DataType>varchar(200)|0s</DataType>
-      <StateNumber>13698</StateNumber>
-      <TypeId>1043</TypeId>
+      <Position>7</Position>
+      <DataType>integer|0s</DataType>
+      <StateNumber>13764</StateNumber>
+      <TypeId>23</TypeId>
     </column>
     <index id="66" parent="44" name="eventdetails_pkey">
       <ObjectId>62903</ObjectId>
-      <StateNumber>13698</StateNumber>
+      <StateNumber>13758</StateNumber>
       <ColNames>id</ColNames>
       <Unique>1</Unique>
       <Primary>1</Primary>
@@ -437,15 +437,15 @@ sequence|table|63061|63063|1
       <Primary>1</Primary>
       <UnderlyingIndexName>eventdetails_pkey</UnderlyingIndexName>
     </key>
-    <foreign-key id="68" parent="44" name="eventdetails_categoryevent_fkey">
-      <ObjectId>62905</ObjectId>
-      <StateNumber>13698</StateNumber>
+    <foreign-key id="68" parent="44" name="categoryevent">
+      <ObjectId>63080</ObjectId>
+      <StateNumber>13765</StateNumber>
       <ColNames>categoryevent</ColNames>
       <RefTableId>62887</RefTableId>
-      <RefColPositions>2</RefColPositions>
+      <RefColPositions>1</RefColPositions>
       <RefTableName>categoryevent</RefTableName>
-      <RefKeyName>categoryevent_category_key</RefKeyName>
-      <RefColNames>category</RefColNames>
+      <RefKeyName>categoryevent_pkey</RefKeyName>
+      <RefColNames>id</RefColNames>
     </foreign-key>
     <column id="69" parent="45" name="id">
       <Position>1</Position>

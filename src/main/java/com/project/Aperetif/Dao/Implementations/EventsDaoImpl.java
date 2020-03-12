@@ -61,11 +61,11 @@ public class EventsDaoImpl implements EventsDao {
 
     @Override
     public int updateEvent(Events event) {
-        String sql  = "UPDATE events SET id = ?,nameevent = ?,describeevent = ?" +
-                ",eventdetailsid = ?,eventsvenueid=?";
+        String sql  = "UPDATE events SET nameevent = ?,describeevent = ?" +
+                ",eventdetailsid = ?,eventsvenueid=? WHERE id = ?";
         log.info("Update event by id = " + event.getId());
-        return jdbcTemplate.update(sql,event.getId(),
+        return jdbcTemplate.update(sql,
                 event.getNameEvent(),event.getDescribeEvent(),event.getEventDetailsId(),
-                event.getEventsVenueId());
+                event.getEventsVenueId(),event.getId());
     }
 }

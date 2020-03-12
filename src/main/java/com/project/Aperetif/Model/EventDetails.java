@@ -3,7 +3,6 @@ package com.project.Aperetif.Model;
 import com.project.Aperetif.Model.enums.CategoryEvent;
 
 import java.util.Objects;
-import java.util.Set;
 
 
 public class EventDetails {
@@ -17,18 +16,24 @@ public class EventDetails {
 
     private Integer CostEvent;
 
-    private Set<CategoryEvent> categoryEvents;
+    private CategoryEvent categoryEvents;
 
 
     public EventDetails(Long id,String dateStart, String timeStart,
-                        Integer costEvent, Set<CategoryEvent> categoryEvents) {
+                        Integer costEvent, CategoryEvent categoryEvents) {
         DateStart = dateStart;
         TimeStart = timeStart;
         CostEvent = costEvent;
         this.categoryEvents = categoryEvents;
         this.id = id;
     }
-
+    public EventDetails(String dateStart, String timeStart,
+                        Integer costEvent, CategoryEvent categoryEvents) {
+        DateStart = dateStart;
+        TimeStart = timeStart;
+        CostEvent = costEvent;
+        this.categoryEvents = categoryEvents;
+     }
     public EventDetails() {
     }
 
@@ -64,11 +69,11 @@ public class EventDetails {
         CostEvent = costEvent;
     }
 
-    public Set<CategoryEvent> getCategoryEvents() {
+    public CategoryEvent getCategoryEvents() {
         return categoryEvents;
     }
 
-    public void setCategoryEvents(Set<CategoryEvent> categoryEvents) {
+    public void setCategoryEvents(CategoryEvent categoryEvents) {
         this.categoryEvents = categoryEvents;
     }
 

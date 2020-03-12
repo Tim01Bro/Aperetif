@@ -61,13 +61,13 @@ public class WineDaoImpl implements WineDao {
 
     @Override
     public int update(Wine wine) {
-        String sql = "UPDATE Wine Set id = ? , namewine = ? ," +
+        String sql = "UPDATE Wine Set  namewine = ? ," +
                 " rating = ?, typewinesid = ?, describewine = ?, quantity = ?," +
-                "filename = ?,dateadded=?";
+                "filename = ?,dateadded=? WHERE id = ?";
 
         log.info("Update wine");
-        return jdbcTemplate.update(sql,wine.getId(),wine.getNameWine(),
+        return jdbcTemplate.update(sql,wine.getNameWine(),
                 wine.getRating(),wine.getTypeWines(),wine.getDescribe(),wine.getQuantity(),
-                wine.getFilename(),Date.valueOf(wine.getDateAdded()));
+                wine.getFilename(),Date.valueOf(wine.getDateAdded()),wine.getId());
     }
 }

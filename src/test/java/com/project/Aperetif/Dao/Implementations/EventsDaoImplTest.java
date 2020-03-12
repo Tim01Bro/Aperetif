@@ -54,7 +54,7 @@ public class EventsDaoImplTest {
         ev.setNameEvent("TIM");
         assertTrue(eventsDao.updateEvent(ev) > 0);
     }
-    
+
     @Test
     public void deleteEvent() {
         assertTrue(eventsDao.deleteEvent(1L) > 0);
