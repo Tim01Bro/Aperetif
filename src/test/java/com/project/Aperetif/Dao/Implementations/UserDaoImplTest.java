@@ -27,7 +27,7 @@ public class UserDaoImplTest {
 
     @Test
     public void saveUser() {
-        Users users = new Users(1L,"Tim","Tim23@ga.xa","123", Role.USER);
+        Users users = new Users(3L,"Tim","Tim23@ga.xa","123", Role.USER);
         Assert.assertTrue(userDao.saveUser(users)>0);
     }
 

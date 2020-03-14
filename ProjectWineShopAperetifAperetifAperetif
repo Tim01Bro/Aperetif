@@ -1,0 +1,23 @@
+2020-03-14 19:27:52 INFO  EventVenueDaoImpl:28 - Save order to database to table Orders
+2020-03-14 19:29:45 INFO  EventVenueDaoImpl:29 - Save order to database to table Orders
+2020-03-14 19:31:18 INFO  EventVenueDaoImpl:29 - Save order to database to table Orders
+2020-03-14 19:35:08 INFO  EventVenueDaoImpl:36 - Get one order by order id = 1
+2020-03-14 19:35:15 INFO  EventVenueDaoImpl:43 - Get all order
+2020-03-14 19:35:19 INFO  EventVenueDaoImpl:50 - Get all order for user by id = 1
+2020-03-14 19:35:35 INFO  EventVenueDaoImpl:50 - Get all order for user by id = 1
+2020-03-14 19:36:10 INFO  EventVenueDaoImpl:50 - Get all order for user by id = 1
+2020-03-14 19:36:19 INFO  EventVenueDaoImpl:50 - Get all order for user by id = 1
+2020-03-14 19:36:43 INFO  EventVenueDaoImpl:50 - Get all order for user by id = 1
+2020-03-14 19:38:08 INFO  EventVenueDaoImpl:36 - Get one order by order id = 1
+2020-03-14 19:38:08 INFO  EventVenueDaoImpl:57 - Update order by id = 2
+2020-03-14 19:39:09 INFO  UserDaoImpl:27 - Save user in database to users table
+2020-03-14 19:39:27 INFO  EventVenueDaoImpl:36 - Get one order by order id = 1
+2020-03-14 19:39:27 INFO  EventVenueDaoImpl:57 - Update order by id = 1
+2020-03-14 19:39:27 INFO  EventVenueDaoImpl:36 - Get one order by order id = 2
+2020-03-14 19:39:51 INFO  EventVenueDaoImpl:36 - Get one order by order id = 1
+2020-03-14 19:39:52 INFO  EventVenueDaoImpl:57 - Update order by id = 1
+2020-03-14 19:39:52 INFO  EventVenueDaoImpl:36 - Get one order by order id = 1
+2020-03-14 19:40:01 INFO  EventVenueDaoImpl:36 - Get one order by order id = 1
+2020-03-14 19:40:01 INFO  EventVenueDaoImpl:57 - Update order by id = 1
+2020-03-14 19:40:01 INFO  EventVenueDaoImpl:36 - Get one order by order id = 1
+2020-03-14 19:41:33 INFO  EventVenueDaoImpl:64 - Delete order by id =1

@@ -51,4 +51,7 @@ public class SpringConfig {
     public EventVenueDao getEventVenueDao(){
         return new EventVenueDaoImpl(getDataSource());
     }
+
+    @Bean
+    public OrdersDao getOrdersDao(){return new OrdersDaoImpl(getDataSource());}
 }
