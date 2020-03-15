@@ -16,7 +16,7 @@ public class OrdersDaoImpl implements OrdersDao {
     @Autowired
     private JdbcTemplate jdbcTemplate;
 
-    private static final Logger log = Logger.getLogger(EventVenueDaoImpl.class);
+    private static final Logger log = Logger.getLogger(Orders.class);
 
 
     public OrdersDaoImpl(DataSource dataSource){

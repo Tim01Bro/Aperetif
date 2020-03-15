@@ -54,4 +54,7 @@ public class SpringConfig {
 
     @Bean
     public OrdersDao getOrdersDao(){return new OrdersDaoImpl(getDataSource());}
+
+    @Bean
+    public WorkersDao getWorkersDao(){return new WorkersDaoImpl(getDataSource());}
 }

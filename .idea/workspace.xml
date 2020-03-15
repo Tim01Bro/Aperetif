@@ -2,20 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f68963-225d-4a38-b47e-091d28223d10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/OrdersDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/OrdersDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Mappers/OrdersMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/OrdersDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/WorkersDaoImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/WorkersDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Mappers/WorkersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/WorkersDaoImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectWineShopAperetifAperetifAperetif" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectWineShopAperetifAperetifAperetif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/OrdersDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/OrdersDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Workers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Workers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/enums/PositionWorker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/enums/PositionWorker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/UserDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/UserDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Config/SpringConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Dao/Implementations/OrdersDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Dao/Implementations/OrdersDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Model/Workers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Model/Workers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Model/enums/PositionWorker.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Model/enums/PositionWorker.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/project/Aperetif/Dao/Implementations/UserDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/project/Aperetif/Dao/Implementations/UserDaoImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +89,7 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="orders: table" type="69fad909:PgImplModel$LocalTable" />
+        <item name="workers: table" type="69fad909:PgImplModel$LocalTable" />
       </path>
     </expand>
     <select />
@@ -162,8 +167,8 @@
       <recent name="D:\Project\WineShopAperetif\Aperetif\Aperetif\src\main\java\webapp\WEB-INF\views" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.OrdersDaoImplTest.deleteOrder">
-    <configuration name="OrdersDaoImplTest.deleteOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.WorkersDaoImplTest.deleteWorker">
+    <configuration name="WorkersDaoImplTest.deleteWorker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aperetif" />
       <extension name="coverage">
         <pattern>
@@ -172,14 +177,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.OrdersDaoImplTest" />
-      <option name="METHOD_NAME" value="deleteOrder" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.WorkersDaoImplTest" />
+      <option name="METHOD_NAME" value="deleteWorker" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdersDaoImplTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkersDaoImplTest.findAllWorker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aperetif" />
       <extension name="coverage">
         <pattern>
@@ -188,14 +193,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.OrdersDaoImplTest" />
-      <option name="METHOD_NAME" value="findAll" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.WorkersDaoImplTest" />
+      <option name="METHOD_NAME" value="findAllWorker" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdersDaoImplTest.findAllByUserId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkersDaoImplTest.getOneWorkerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aperetif" />
       <extension name="coverage">
         <pattern>
@@ -204,14 +209,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.OrdersDaoImplTest" />
-      <option name="METHOD_NAME" value="findAllByUserId" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.WorkersDaoImplTest" />
+      <option name="METHOD_NAME" value="getOneWorkerById" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdersDaoImplTest.updateOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkersDaoImplTest.getOneWorkerByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aperetif" />
       <extension name="coverage">
         <pattern>
@@ -220,14 +225,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.OrdersDaoImplTest" />
-      <option name="METHOD_NAME" value="updateOrder" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.WorkersDaoImplTest" />
+      <option name="METHOD_NAME" value="getOneWorkerByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoImplTest.saveUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WorkersDaoImplTest.updateWorker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aperetif" />
       <extension name="coverage">
         <pattern>
@@ -236,8 +241,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.UserDaoImplTest" />
-      <option name="METHOD_NAME" value="saveUser" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.WorkersDaoImplTest" />
+      <option name="METHOD_NAME" value="updateWorker" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -245,13 +250,35 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrdersDaoImplTest.deleteOrder" />
-        <item itemvalue="JUnit.OrdersDaoImplTest.updateOrder" />
-        <item itemvalue="JUnit.UserDaoImplTest.saveUser" />
-        <item itemvalue="JUnit.OrdersDaoImplTest.findAllByUserId" />
-        <item itemvalue="JUnit.OrdersDaoImplTest.findAll" />
+        <item itemvalue="JUnit.WorkersDaoImplTest.deleteWorker" />
+        <item itemvalue="JUnit.WorkersDaoImplTest.updateWorker" />
+        <item itemvalue="JUnit.WorkersDaoImplTest.getOneWorkerByName" />
+        <item itemvalue="JUnit.WorkersDaoImplTest.findAllWorker" />
+        <item itemvalue="JUnit.WorkersDaoImplTest.getOneWorkerById" />
       </list>
     </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:Aperetif@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:Aperetif@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@5bb51b4a" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -266,7 +293,7 @@
       <workItem from="1583261867872" duration="1192000" />
       <workItem from="1583759552968" duration="2300000" />
       <workItem from="1584196817317" duration="2300000" />
-      <workItem from="1584202933149" duration="1057000" />
+      <workItem from="1584202933149" duration="6609000" />
     </task>
     <servers />
   </component>
@@ -274,54 +301,82 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#SQL_Dialects" timestamp="1584287978628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1584287978628" />
     <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584203205274">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584203205274" />
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1584204140987">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584290701645">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584204140987" />
-    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1584204140987">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584290701645" />
+    <state x="566" y="272" width="474" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584204860222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584204140987" />
-    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1584204140987">
+    <state x="566" y="272" width="474" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1584204860222" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1584290772888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584204140987" />
-    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1584204140987">
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1584290772888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584204140987" />
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1584204140987">
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1584290772888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584204140987" />
-    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1584204140987">
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1584290772888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584204140987" />
-    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1584204140987">
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1584290772889">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584204140987" />
-    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1584204140987">
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584290772889" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1584290772888">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584204140987" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1584290772888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1584290772888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
     <state x="279" y="58" key="SettingsEditor" timestamp="1584203044100">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584203044100" />
-    <state x="485" y="54" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1584203526557">
+    <state x="631" y="292" width="322" height="239" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1584205741090">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="485" y="54" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1584203526557" />
+    <state x="631" y="292" width="322" height="239" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1584205741090" />
+    <state x="566" y="237" width="403" height="345" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1584288788844">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="237" width="403" height="345" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.824@0.0.1536.824" timestamp="1584288788844" />
+    <state x="485" y="54" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1584204771645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="54" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1584204771645" />
     <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1584202940150">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584202940150" />
+    <state x="511" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584289539025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1584289539025" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1584289691309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584289691309" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
