@@ -5,7 +5,6 @@ package com.project.Aperetif.Model;
 
 public class EventsVenue {
 
-
     private Long id;
 
     private String PlaceEvent;
@@ -16,15 +15,12 @@ public class EventsVenue {
 
     private String phoneEvent;
 
-    private Integer eventsId;
-
     public EventsVenue(Long id,String placeEvent, String addressEvent,
-                       String webSiteEvent, String phoneEvent, Integer eventsId) {
+                       String webSiteEvent, String phoneEvent) {
         PlaceEvent = placeEvent;
         AddressEvent = addressEvent;
         this.webSiteEvent = webSiteEvent;
         this.phoneEvent = phoneEvent;
-        this.eventsId = eventsId;
         this.id = id;
     }
 
@@ -71,13 +67,7 @@ public class EventsVenue {
         this.phoneEvent = phoneEvent;
     }
 
-    public Integer getEvents() {
-        return eventsId;
-    }
 
-    public void setEvents(Integer eventsId) {
-        this.eventsId = eventsId;
-    }
 
     @Override
     public String toString() {
@@ -86,8 +76,7 @@ public class EventsVenue {
                 ", PlaceEvent='" + PlaceEvent + '\'' +
                 ", AddressEvent='" + AddressEvent + '\'' +
                 ", webSiteEvent='" + webSiteEvent + '\'' +
-                ", phoneEvent='" + phoneEvent + '\'' +
-                ", events=" + eventsId +
+                ", phoneEvent='" + phoneEvent + '\''+
                 '}';
     }
 
@@ -100,12 +89,11 @@ public class EventsVenue {
                 Objects.equals(PlaceEvent, that.PlaceEvent) &&
                 Objects.equals(AddressEvent, that.AddressEvent) &&
                 Objects.equals(webSiteEvent, that.webSiteEvent) &&
-                Objects.equals(phoneEvent, that.phoneEvent) &&
-                Objects.equals(eventsId, that.eventsId);
+                Objects.equals(phoneEvent, that.phoneEvent);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, PlaceEvent, AddressEvent, webSiteEvent, phoneEvent, eventsId);
+        return Objects.hash(id, PlaceEvent, AddressEvent, webSiteEvent, phoneEvent);
     }
 }

@@ -1,5 +1,7 @@
 package com.project.Aperetif.Config;
 
+import com.project.Aperetif.Dao.Implementations.*;
+import com.project.Aperetif.Dao.Interfaces.*;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -20,5 +22,39 @@ public class SpringConfig {
         return dataSource;
     }
 
+    @Bean
+    public UserDao getUserDao(){
+        return new UserDaoImpl(getDataSource());
+    }
 
+    @Bean
+    public WineDao getWineDao(){
+        return new WineDaoImpl(getDataSource());
+    }
+
+    @Bean
+    public FeedBackDao getFeedBackDao(){
+        return new FeedBackDaoImpl(getDataSource());
+    }
+
+    @Bean
+    public EventsDao getEventsDao() {
+        return new EventsDaoImpl(getDataSource());
+    }
+
+    @Bean
+    public EventsDetailsDao getEventDetailDao () {
+        return new EventDetailsDaoImpl(getDataSource());
+    }
+
+    @Bean
+    public EventVenueDao getEventVenueDao(){
+        return new EventVenueDaoImpl(getDataSource());
+    }
+
+    @Bean
+    public OrdersDao getOrdersDao(){return new OrdersDaoImpl(getDataSource());}
+
+    @Bean
+    public WorkersDao getWorkersDao(){return new WorkersDaoImpl(getDataSource());}
 }
