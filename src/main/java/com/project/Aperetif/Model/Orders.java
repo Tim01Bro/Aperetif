@@ -8,11 +8,11 @@ public class Orders {
 
     private Long id;
 
-    private Users custrom;
-    private Wine wineId;
+    private Integer custrom;
+    private Integer wineId;
     private String dateAdd;
 
-    public Orders(Long id, Users custrom, Wine wineId, String dateAdd) {
+    public Orders(Long id, Integer custrom, Integer wineId, String dateAdd) {
         this.custrom = custrom;
         this.wineId = wineId;
         this.dateAdd = dateAdd;
@@ -30,19 +30,19 @@ public class Orders {
         this.id = id;
     }
 
-    public Users getUserId() {
+    public int getUserId() {
         return custrom;
     }
 
-    public void setUserId(Users userId) {
-        this.custrom = custrom;
+    public void setUserId(int userId) {
+        this.custrom = userId;
     }
 
-    public Wine getWineId() {
+    public Integer getWineId() {
         return wineId;
     }
 
-    public void setWineId(Wine wineId) {
+    public void setWineId(Integer wineId) {
         this.wineId = wineId;
     }
 

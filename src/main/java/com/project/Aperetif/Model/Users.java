@@ -1,5 +1,7 @@
 package com.project.Aperetif.Model;
 
+import com.project.Aperetif.Model.enums.Role;
+
 import java.util.Objects;
 
 public class Users {
@@ -16,6 +18,13 @@ public class Users {
 
     public Users(Long id, String username, String email, String password, Role role) {
         this.id = id;
+        this.username = username;
+        this.email = email;
+        this.password = password;
+        this.role = role;
+    }
+
+    public Users(String username, String email, String password, Role role) {
         this.username = username;
         this.email = email;
         this.password = password;

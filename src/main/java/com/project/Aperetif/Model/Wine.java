@@ -12,7 +12,7 @@ public class Wine {
 
     private Integer rating;
 
-    private Set<TypeWine> typeWines;
+    private Integer typeWines;
 
     private String describe;
 
@@ -22,7 +22,7 @@ public class Wine {
 
     private String dateAdded;
 
-    public Wine(Long id,String nameWine, Integer rating, Set<TypeWine> typeWines, String describe, Integer quantity, String filename, String dateAdded) {
+    public Wine(Long id,String nameWine, Integer rating,Integer typeWines, String describe, Integer quantity, String filename, String dateAdded) {
         this.nameWine = nameWine;
         this.rating = rating;
         this.typeWines = typeWines;
@@ -60,11 +60,11 @@ public class Wine {
         this.rating = rating;
     }
 
-    public Set<TypeWine> getTypeWines() {
+    public Integer getTypeWines() {
         return typeWines;
     }
 
-    public void setTypeWines(Set<TypeWine> typeWines) {
+    public void setTypeWines(Integer typeWines) {
         this.typeWines = typeWines;
     }
 

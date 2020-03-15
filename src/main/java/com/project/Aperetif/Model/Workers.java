@@ -1,7 +1,8 @@
 package com.project.Aperetif.Model;
 
+import com.project.Aperetif.Model.enums.PositionWorker;
+
 import java.util.Objects;
-import java.util.Set;
 
 
 public class Workers {
@@ -13,7 +14,7 @@ public class Workers {
     private String describe;
 
 
-    private Set<PositionWorker> positionWorkers;
+    private PositionWorker positionWorkers;
 
     private String linkFacebook;
 
@@ -22,7 +23,7 @@ public class Workers {
     private String lingLinkedIN;
 
     public Workers(Long id,String nameWorker, String sonameWorker, String filename, String describe,
-                   Set<PositionWorker> positionWorkers, String linkFacebook, String linkTwitter, String lingLinkedIN) {
+                   PositionWorker positionWorkers, String linkFacebook, String linkTwitter, String lingLinkedIN) {
         this.nameWorker = nameWorker;
         this.sonameWorker = sonameWorker;
         this.filename = filename;
@@ -77,11 +78,11 @@ public class Workers {
         this.describe = describe;
     }
 
-    public Set<PositionWorker> getPositionWorkers() {
+    public PositionWorker getPositionWorkers() {
         return positionWorkers;
     }
 
-    public void setPositionWorkers(Set<PositionWorker> positionWorkers) {
+    public void setPositionWorkers(PositionWorker positionWorkers) {
         this.positionWorkers = positionWorkers;
     }
 

@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="79f68963-225d-4a38-b47e-091d28223d10" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="79f68963-225d-4a38-b47e-091d28223d10" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+>>>>>>> 59142f2b21293ed65a4001ff4e30824450c79642
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+>>>>>>> 59142f2b21293ed65a4001ff4e30824450c79642
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
@@ -69,6 +81,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -80,6 +93,16 @@
       </map>
     </option>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Project\WineShopAperetif\Aperetif\Aperetif\.idea" />
+      </set>
+    </option>
+  </component>
+>>>>>>> 59142f2b21293ed65a4001ff4e30824450c79642
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -87,17 +110,28 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="950" />
-    <option name="width" value="980" />
-    <option name="height" value="1040" />
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
+  <component name="ProjectId" id="1Z7sEoBqLJpsxL1yFOoYkyHIL80" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+<<<<<<< HEAD
+=======
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+>>>>>>> 59142f2b21293ed65a4001ff4e30824450c79642
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="database.console.LAST_STATE" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -105,7 +139,113 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.project.Aperetif.Dao.Implementations" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Project\WineShopAperetif\Aperetif\Aperetif\src\main\java\webapp\WEB-INF\views" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.WorkersDaoImplTest.deleteWorker">
+    <configuration name="WorkersDaoImplTest.deleteWorker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aperetif" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.Aperetif.Dao.Implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.WorkersDaoImplTest" />
+      <option name="METHOD_NAME" value="deleteWorker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkersDaoImplTest.findAllWorker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aperetif" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.Aperetif.Dao.Implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.WorkersDaoImplTest" />
+      <option name="METHOD_NAME" value="findAllWorker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkersDaoImplTest.getOneWorkerById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aperetif" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.Aperetif.Dao.Implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.WorkersDaoImplTest" />
+      <option name="METHOD_NAME" value="getOneWorkerById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkersDaoImplTest.getOneWorkerByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aperetif" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.Aperetif.Dao.Implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.WorkersDaoImplTest" />
+      <option name="METHOD_NAME" value="getOneWorkerByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WorkersDaoImplTest.updateWorker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aperetif" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.Aperetif.Dao.Implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.WorkersDaoImplTest" />
+      <option name="METHOD_NAME" value="updateWorker" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WorkersDaoImplTest.deleteWorker" />
+        <item itemvalue="JUnit.WorkersDaoImplTest.updateWorker" />
+        <item itemvalue="JUnit.WorkersDaoImplTest.getOneWorkerByName" />
+        <item itemvalue="JUnit.WorkersDaoImplTest.findAllWorker" />
+        <item itemvalue="JUnit.WorkersDaoImplTest.getOneWorkerById" />
+      </list>
+    </recent_temporary>
+  </component>
+>>>>>>> 59142f2b21293ed65a4001ff4e30824450c79642
   <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
@@ -140,12 +280,99 @@
       <updated>1583261859920</updated>
       <workItem from="1583261867872" duration="1192000" />
       <workItem from="1583759552968" duration="2300000" />
+      <workItem from="1584196817317" duration="2300000" />
+      <workItem from="1584202933149" duration="8344000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+<<<<<<< HEAD
+=======
+  <component name="WindowStateProjectService">
+    <state x="361" y="71" key="#SQL_Dialects" timestamp="1584287978628">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="71" key="#SQL_Dialects/0.0.1536.824@0.0.1536.824" timestamp="1584287978628" />
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1584203205274">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584203205274" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584290701645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584290701645" />
+    <state x="566" y="272" width="474" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584204860222">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="272" width="474" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1584204860222" />
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom" timestamp="1584290772888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state width="1493" height="261" key="GridCell.Tab.0.center" timestamp="1584290772888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state width="1493" height="261" key="GridCell.Tab.0.left" timestamp="1584290772888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state width="1493" height="261" key="GridCell.Tab.0.right" timestamp="1584290772888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1584290772889">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584290772889" />
+    <state width="1493" height="261" key="GridCell.Tab.1.center" timestamp="1584290772888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state width="1493" height="261" key="GridCell.Tab.1.left" timestamp="1584290772888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state width="1493" height="261" key="GridCell.Tab.1.right" timestamp="1584290772888">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584290772888" />
+    <state x="279" y="58" key="SettingsEditor" timestamp="1584203044100">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="279" y="58" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584203044100" />
+    <state x="631" y="292" width="322" height="239" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1584205741090">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="631" y="292" width="322" height="239" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1536.824@0.0.1536.824" timestamp="1584205741090" />
+    <state x="566" y="237" width="403" height="345" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog" timestamp="1584288788844">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="566" y="237" width="403" height="345" key="com.intellij.database.psi.DbRenamePsiElementProcessor.DbRenameDialog/0.0.1536.824@0.0.1536.824" timestamp="1584288788844" />
+    <state x="485" y="54" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1584204771645">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="485" y="54" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1584204771645" />
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog" timestamp="1584202940150">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584202940150" />
+    <state x="511" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584289539025">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="511" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1584289539025" />
+    <state x="425" y="187" key="run.anything.popup" timestamp="1584289691309">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1584289691309" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+>>>>>>> 59142f2b21293ed65a4001ff4e30824450c79642
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
