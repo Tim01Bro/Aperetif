@@ -2,9 +2,11 @@ package com.project.Aperetif.Config;
 
 import com.project.Aperetif.Dao.Implementations.*;
 import com.project.Aperetif.Dao.Interfaces.*;
+import com.project.Aperetif.Services.implementations.EventDetailsServiceImpl;
 import com.project.Aperetif.Services.implementations.OrderServiceImpl;
 import com.project.Aperetif.Services.implementations.UserServiceImpl;
 import com.project.Aperetif.Services.implementations.WineServiceImpl;
+import com.project.Aperetif.Services.interfaces.EventDetailsService;
 import com.project.Aperetif.Services.interfaces.OrderService;
 import com.project.Aperetif.Services.interfaces.UserService;
 import com.project.Aperetif.Services.interfaces.WineService;
@@ -79,6 +81,9 @@ public class SpringConfig {
 
     @Bean
     public OrderService getOrderService(){return new OrderServiceImpl();}
+
+    @Bean
+    public EventDetailsService getEventDetailsService(){return new EventDetailsServiceImpl();}
 
 
 }

@@ -1,1 +1,8 @@
- 
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:68 - Can't update event details by id because of illegal argument
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:23 - Save event details with success
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:52 - Delete event details by id = 1 with success
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:65 - Update event details by id = null with success
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:35 - Get event details by id = 1 with success
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:38 - Can't get event details by id because of illegal argument
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:23 - Save event details with success
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:55 - Can't delete event details because of illegal argument
