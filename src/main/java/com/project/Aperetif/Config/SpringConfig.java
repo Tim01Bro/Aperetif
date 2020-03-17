@@ -3,7 +3,9 @@ package com.project.Aperetif.Config;
 import com.project.Aperetif.Dao.Implementations.*;
 import com.project.Aperetif.Dao.Interfaces.*;
 import com.project.Aperetif.Services.implementations.UserServiceImpl;
+import com.project.Aperetif.Services.implementations.WineServiceImpl;
 import com.project.Aperetif.Services.interfaces.UserService;
+import com.project.Aperetif.Services.interfaces.WineService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -69,4 +71,8 @@ public class SpringConfig {
     public JdbcTemplate jdbcTemplate(){
         return new JdbcTemplate(getDataSource());
     }
+
+    @Bean
+    public WineService getWineService(){return new WineServiceImpl();}
+
 }

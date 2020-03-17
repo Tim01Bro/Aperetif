@@ -1,27 +1,17 @@
 package com.project.Aperetif.Services.implementations;
 
 import com.project.Aperetif.Config.SpringConfig;
-import com.project.Aperetif.Dao.Implementations.UserDaoImpl;
 import com.project.Aperetif.Dao.Interfaces.UserDao;
 import com.project.Aperetif.Model.Users;
 import com.project.Aperetif.Model.enums.Role;
 import com.project.Aperetif.Services.interfaces.UserService;
-import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
-import org.mockito.InjectMocks;
-import org.mockito.Mock;
-import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import org.springframework.stereotype.Component;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import org.springframework.test.context.junit4.SpringRunner;
-import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
 import java.util.stream.Collectors;
 import java.util.stream.Stream;

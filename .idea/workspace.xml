@@ -2,26 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79f68963-225d-4a38-b47e-091d28223d10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_1_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_bytebuddy_byte_buddy_agent_1_10_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Services/implementations/UserServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_1_9_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mockito_mockito_core_3_3_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_objenesis_objenesis_2_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/WineServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/WineService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Services/implementations/WineServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Aperetif.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Aperetif.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectWineShopAperetifAperetifAperetif" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectWineShopAperetifAperetifAperetif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/UserDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/UserDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/UserDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/UserDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/WineDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/WineDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Wine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Wine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Services/implementations/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Services/implementations/UserServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Config/SpringConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Dao/Implementations/UserDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Dao/Implementations/UserDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/project/Aperetif/Dao/Implementations/UserDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/project/Aperetif/Dao/Implementations/UserDaoImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/project/Aperetif/Dao/Implementations/WineDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/project/Aperetif/Dao/Implementations/WineDaoImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Model/Wine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Model/Wine.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/project/Aperetif/Services/implementations/UserServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/project/Aperetif/Services/implementations/UserServiceImplTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,8 +82,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
         <option value="JUnit4 Test Class" />
       </list>
     </option>
@@ -160,7 +151,7 @@
       <recent name="D:\Project\WineShopAperetif\Aperetif\Aperetif\src\main\java\webapp\WEB-INF\views" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserServiceImplTest">
+  <component name="RunManager" selected="JUnit.WineServiceImplTest">
     <configuration name="UserServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aperetif" />
       <extension name="coverage">
@@ -172,22 +163,6 @@
       <option name="PACKAGE_NAME" value="com.project.Aperetif.Services.implementations" />
       <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Services.implementations.UserServiceImplTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserServiceImplTest.FailedDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Aperetif" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.project.Aperetif.Services.implementations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.project.Aperetif.Services.implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Services.implementations.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="FailedDelete" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -240,13 +215,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WineServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aperetif" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.Aperetif.Services.implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.Aperetif.Services.implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Services.implementations.WineServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.WineServiceImplTest" />
         <item itemvalue="JUnit.UserServiceImplTest" />
         <item itemvalue="JUnit.UserServiceImplTest.getUserById" />
         <item itemvalue="JUnit.UserServiceImplTest.getUserByName" />
         <item itemvalue="JUnit.UserServiceImplTest.FailedUpdate" />
-        <item itemvalue="JUnit.UserServiceImplTest.FailedDelete" />
       </list>
     </recent_temporary>
   </component>
@@ -301,46 +291,46 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="74" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1584203205274" />
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584456165951">
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser" timestamp="1584482663315">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584456165951" />
+    <state x="574" y="122" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1584482663315" />
     <state x="566" y="272" width="474" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1584204860222">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="566" y="272" width="474" height="287" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.824@0.0.1536.824" timestamp="1584204860222" />
-    <state width="1493" height="358" key="GridCell.Tab.0.bottom" timestamp="1584471279669">
+    <state width="1493" height="358" key="GridCell.Tab.0.bottom" timestamp="1584483776974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584471279669" />
-    <state width="1493" height="358" key="GridCell.Tab.0.center" timestamp="1584471279669">
+    <state width="1493" height="358" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584483776974" />
+    <state width="1493" height="358" key="GridCell.Tab.0.center" timestamp="1584483776973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584471279669" />
-    <state width="1493" height="358" key="GridCell.Tab.0.left" timestamp="1584471279669">
+    <state width="1493" height="358" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1584483776973" />
+    <state width="1493" height="358" key="GridCell.Tab.0.left" timestamp="1584483776973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584471279669" />
-    <state width="1493" height="358" key="GridCell.Tab.0.right" timestamp="1584471279669">
+    <state width="1493" height="358" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1584483776973" />
+    <state width="1493" height="358" key="GridCell.Tab.0.right" timestamp="1584483776973">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584471279669" />
-    <state width="1493" height="358" key="GridCell.Tab.1.bottom" timestamp="1584471279669">
+    <state width="1493" height="358" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1584483776973" />
+    <state width="1493" height="358" key="GridCell.Tab.1.bottom" timestamp="1584483776974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584471279669" />
-    <state width="1493" height="358" key="GridCell.Tab.1.center" timestamp="1584471279669">
+    <state width="1493" height="358" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1584483776974" />
+    <state width="1493" height="358" key="GridCell.Tab.1.center" timestamp="1584483776974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584471279669" />
-    <state width="1493" height="358" key="GridCell.Tab.1.left" timestamp="1584471279669">
+    <state width="1493" height="358" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1584483776974" />
+    <state width="1493" height="358" key="GridCell.Tab.1.left" timestamp="1584483776974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584471279669" />
-    <state width="1493" height="358" key="GridCell.Tab.1.right" timestamp="1584471279669">
+    <state width="1493" height="358" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1584483776974" />
+    <state width="1493" height="358" key="GridCell.Tab.1.right" timestamp="1584483776974">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="358" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584471279669" />
+    <state width="1493" height="358" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1584483776974" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1584455979565">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -369,10 +359,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="477" y="240" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1584202940150" />
-    <state x="511" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584459095221">
+    <state x="511" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1584482524249">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="511" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1584459095221" />
+    <state x="511" y="131" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1536.824@0.0.1536.824" timestamp="1584482524249" />
     <state x="425" y="187" key="run.anything.popup" timestamp="1584289691309">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
