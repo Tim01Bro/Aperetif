@@ -2,9 +2,12 @@ package com.project.Aperetif.Config;
 
 import com.project.Aperetif.Dao.Implementations.*;
 import com.project.Aperetif.Dao.Interfaces.*;
+import com.project.Aperetif.Services.implementations.UserServiceImpl;
+import com.project.Aperetif.Services.interfaces.UserService;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import javax.sql.DataSource;
@@ -12,6 +15,7 @@ import javax.sql.DataSource;
 @Configuration
 @ComponentScan(basePackages = "com.project.Aperetif")
 public class SpringConfig {
+
     @Bean
     public DataSource getDataSource() {
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
@@ -57,4 +61,12 @@ public class SpringConfig {
 
     @Bean
     public WorkersDao getWorkersDao(){return new WorkersDaoImpl(getDataSource());}
+
+    @Bean
+    public UserService getUserService(){return new UserServiceImpl();}
+
+    @Bean
+    public JdbcTemplate jdbcTemplate(){
+        return new JdbcTemplate(getDataSource());
+    }
 }
