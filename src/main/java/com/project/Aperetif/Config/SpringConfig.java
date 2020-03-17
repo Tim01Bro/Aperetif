@@ -2,8 +2,10 @@ package com.project.Aperetif.Config;
 
 import com.project.Aperetif.Dao.Implementations.*;
 import com.project.Aperetif.Dao.Interfaces.*;
+import com.project.Aperetif.Services.implementations.OrderServiceImpl;
 import com.project.Aperetif.Services.implementations.UserServiceImpl;
 import com.project.Aperetif.Services.implementations.WineServiceImpl;
+import com.project.Aperetif.Services.interfaces.OrderService;
 import com.project.Aperetif.Services.interfaces.UserService;
 import com.project.Aperetif.Services.interfaces.WineService;
 import org.springframework.context.annotation.Bean;
@@ -74,5 +76,9 @@ public class SpringConfig {
 
     @Bean
     public WineService getWineService(){return new WineServiceImpl();}
+
+    @Bean
+    public OrderService getOrderService(){return new OrderServiceImpl();}
+
 
 }

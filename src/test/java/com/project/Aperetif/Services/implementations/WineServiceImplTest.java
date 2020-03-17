@@ -1,10 +1,8 @@
 package com.project.Aperetif.Services.implementations;
 
 import com.project.Aperetif.Config.SpringConfig;
-import com.project.Aperetif.Dao.Interfaces.UserDao;
 import com.project.Aperetif.Dao.Interfaces.WineDao;
 import com.project.Aperetif.Model.Wine;
-import com.project.Aperetif.Services.interfaces.UserService;
 import com.project.Aperetif.Services.interfaces.WineService;
 import org.junit.Test;
 import org.junit.runner.RunWith;

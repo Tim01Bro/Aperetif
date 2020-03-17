@@ -22,7 +22,7 @@ public class WineServiceImpl implements WineService {
             log.info("Save wine with success");
             return wineDao.saveWine(wine);
         }else {
-            log.info("Can't save wine illegal argument");
+            log.info("Can't save wine because of illegal argument");
             return 0;
         }
     }
@@ -33,7 +33,7 @@ public class WineServiceImpl implements WineService {
             log.info("Get wine by id = " + id + " with success");
             return wineDao.getWineById(id);
         }else {
-            log.info("Can't get wine by id illegal argument");
+            log.info("Can't get wine by id because of illegal argument");
             return null;
         }
     }
@@ -44,7 +44,7 @@ public class WineServiceImpl implements WineService {
             log.info("Get wine by name = " + name + " with success");
             return wineDao.getWineByName(name);
         }else {
-            log.info("Can't get wine by name illegal argument");
+            log.info("Can't get wine by name because of illegal argument");
             return null;
         }
     }
@@ -60,7 +60,7 @@ public class WineServiceImpl implements WineService {
             log.info("Delete wine by id = " + id + " with success");
             return wineDao.deleteWine(id);
         }else {
-            log.info("Can't delete wine by id illegal argument");
+            log.info("Can't delete wine by because of id illegal argument");
             return 0;
         }
     }
@@ -72,7 +72,7 @@ public class WineServiceImpl implements WineService {
             log.info("Update wine by id = " + wine.getId() + " with success");
             return wineDao.update(wine);
         }else{
-            log.info("Can't update wine by id illegal argument");
+            log.info("Can't update wine by because of id illegal argument");
             return 0;
         }
     }
