@@ -35,6 +35,19 @@ public class Workers {
         this.id = id;
     }
 
+    public Workers(String nameWorker, String sonameWorker, String filename, String describe,
+                   PositionWorker positionWorkers, String linkFacebook, String linkTwitter, String lingLinkedIN) {
+        this.nameWorker = nameWorker;
+        this.sonameWorker = sonameWorker;
+        this.filename = filename;
+        this.describe = describe;
+        this.positionWorkers = positionWorkers;
+        this.linkFacebook = linkFacebook;
+        this.linkTwitter = linkTwitter;
+        this.lingLinkedIN = lingLinkedIN;
+
+    }
+
     public Workers() {
     }
 

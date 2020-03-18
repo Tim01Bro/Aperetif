@@ -1,0 +1,67 @@
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:68 - Can't update event details by id because of illegal argument
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:23 - Save event details with success
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:52 - Delete event details by id = 1 with success
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:65 - Update event details by id = null with success
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:35 - Get event details by id = 1 with success
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:38 - Can't get event details by id because of illegal argument
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:23 - Save event details with success
+2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:55 - Can't delete event details because of illegal argument
+2020-03-18 03:32:20 INFO  EventServiceImpl:64 - Delete event by id = 1 with success
+2020-03-18 03:32:20 INFO  EventServiceImpl:35 - Get one event by id = 1 with success
+2020-03-18 03:32:21 INFO  EventServiceImpl:77 - Update event by id = null with success
+2020-03-18 03:32:21 INFO  EventServiceImpl:35 - Get one event by id = 1 with success
+2020-03-18 03:32:21 INFO  EventServiceImpl:23 - Save event with success
+2020-03-18 03:33:02 INFO  EventServiceImpl:35 - Get one event by id = 1 with success
+2020-03-18 03:34:12 INFO  EventServiceImpl:47 - Get one event by name = s with success
+2020-03-18 03:37:45 INFO  EventServiceImpl:80 - Can't update event by id because of illegal argument
+2020-03-18 03:37:45 INFO  EventServiceImpl:26 - Can't save event because of illegal argument
+2020-03-18 03:37:45 INFO  EventServiceImpl:38 - Can't get event by id because of illegal argument
+2020-03-18 03:37:45 INFO  EventServiceImpl:64 - Delete event by id = 1 with success
+2020-03-18 03:37:45 INFO  EventServiceImpl:47 - Get one event by name = s with success
+2020-03-18 03:37:45 INFO  EventServiceImpl:77 - Update event by id = null with success
+2020-03-18 03:37:45 INFO  EventServiceImpl:50 - Can't get event by name because of illegal argument
+2020-03-18 03:37:45 INFO  EventServiceImpl:35 - Get one event by id = 1 with success
+2020-03-18 03:37:45 INFO  EventServiceImpl:23 - Save event with success
+2020-03-18 03:37:45 INFO  EventServiceImpl:67 - Can't delete event by id because of illegal argument
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:68 - Can't update event venue because of illegal argument
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:26 - Can't save event venue because of illegal argument
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:38 - Can't get venue by id because of illegal argument
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:52 - Delete event venue by id = 1 with success
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:65 - Update event venue with success
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:35 - Get event venue by id = 1 with success
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:23 - Save event venue with success
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:55 - Can't get venue by id because of illegal argument
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:68 - Can't update event venue because of illegal argument
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:26 - Can't save event venue because of illegal argument
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:38 - Can't get venue by id because of illegal argument
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:52 - Delete event venue by id = 1 with success
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:65 - Update event venue with success
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:35 - Get event venue by id = 1 with success
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:23 - Save event venue with success
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:55 - Can't get venue by id because of illegal argument
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:26 - Can't save feedback because of illegal argument
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:47 - Get feedback by name = sas with success
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:23 - Save feedback with success
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:35 - Get feedback by id = 1 with success
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:50 - Can't get feedback by name because of illegal argument
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:67 - Can't delete feedback by id because of illegal argument
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:35 - Get feedback by id = 1 with success
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:64 - Delete feedback by id = 1 with success
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:26 - Can't save feedback because of illegal argument
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:47 - Get feedback by name = sas with success
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:23 - Save feedback with success
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:35 - Get feedback by id = 1 with success
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:50 - Can't get feedback by name because of illegal argument
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:67 - Can't delete feedback by id because of illegal argument
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:38 - Can't get feedback by id because of illegal argument
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:64 - Delete feedback by id = 1 with success
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:72 - Can't update worker because of illegal argument
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:37 - Get worker by id = 1 with success
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:28 - Can't save worker because of illegal argument
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:69 - Update worker with success
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:80 - Delete worker by id = 1 with success
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:49 - Get worker by name = sa with success
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:40 - Can't get worker by id because illegal argument
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:52 - Can't get worker name because of illegal argument
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:25 - Save worker with success
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:83 - Can't delete by id because of illegal argument

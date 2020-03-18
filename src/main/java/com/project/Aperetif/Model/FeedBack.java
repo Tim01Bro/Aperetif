@@ -24,6 +24,15 @@ public class FeedBack {
         this.id = id;
     }
 
+    public FeedBack( String nameSender, String sonameSender, String commentSender, String dateSender) {
+        this.nameSender = nameSender;
+        this.sonameSender = sonameSender;
+        this.commentSender = commentSender;
+        this.dateSender = dateSender;
+
+    }
+
+
     public FeedBack() {
     }
 

@@ -8,6 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import javax.sql.DataSource;
+import java.time.LocalDate;
 import java.util.List;
 
 public class FeedBackDaoImpl implements FeedBackDao {
@@ -26,6 +27,7 @@ public class FeedBackDaoImpl implements FeedBackDao {
     public int saveFeedBack(FeedBack fd) {
         String sql = "INSERT INTO feedback(id,namesender,sonamesender,commentsender,datesender)values(?,?,?,?,?)";
         log.info("Save feedback to database to table feedback");
+        fd.setDateSender(LocalDate.now().toString());
         return jdbcTemplate.update(sql,fd.getId(),fd.getNameSender(),fd.getSonameSender(),fd.getCommentSender(),fd.getDateSender());
     }
 

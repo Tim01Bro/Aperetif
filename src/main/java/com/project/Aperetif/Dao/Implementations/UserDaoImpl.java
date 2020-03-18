@@ -23,9 +23,9 @@ public class UserDaoImpl implements UserDao {
     @Override
     public int saveUser(Users user) {
         String sql = "INSERT INTO " +
-                "users(id,username,email,passworduser,roleuserid) values(?,?,?,?,?)";
+                "users(username,email,passworduser,roleuserid) values(?,?,?,?)";
         log.info("Save user in database to users table");
-        return jdbcTemplate.update(sql,user.getId(),
+        return jdbcTemplate.update(sql,
                 user.getUsername(),user.getEmail(),user.getPassword(),user.getRole().getIndexForDb());
     }
 
