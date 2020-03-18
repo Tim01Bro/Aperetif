@@ -1,21 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-     <list default="true" id="79f68963-225d-4a38-b47e-091d28223d10" name="Default Changelist" comment="" />
-
-    <list default="true" id="79f68963-225d-4a38-b47e-091d28223d10" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
-     <option name="SHOW_DIALOG" value="false" />
+    <list default="true" id="79f68963-225d-4a38-b47e-091d28223d10" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-
   <component name="CodeStyleSettingsInfer">
     <option name="done" value="true" />
   </component>
-   <component name="DatabaseView">
+  <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
     <option name="GROUP_DATA_SOURCES" value="true" />
     <option name="GROUP_SCHEMA" value="true" />
@@ -89,7 +84,6 @@
       </map>
     </option>
   </component>
-
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
       <set>
@@ -97,7 +91,7 @@
       </set>
     </option>
   </component>
-   <component name="MavenImportPreferences">
+  <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -109,13 +103,12 @@
   </component>
   <component name="ProjectId" id="1Z7sEoBqLJpsxL1yFOoYkyHIL80" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-   <component name="PropertiesComponent">
+  <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
@@ -133,7 +126,6 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
-
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.project.Aperetif.Dao.Implementations" />
@@ -236,7 +228,7 @@
       </list>
     </recent_temporary>
   </component>
-   <component name="ServiceViewManager">
+  <component name="ServiceViewManager">
     <option name="viewStates">
       <list>
         <serviceView>
@@ -272,14 +264,13 @@
       <workItem from="1583759552968" duration="2300000" />
       <workItem from="1584196817317" duration="2300000" />
       <workItem from="1584202933149" duration="8344000" />
+      <workItem from="1584555474349" duration="330000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-
-
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#SQL_Dialects" timestamp="1584287978628">
       <screen x="0" y="0" width="1536" height="824" />
@@ -362,7 +353,6 @@
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
->>>>>>> 59142f2b21293ed65a4001ff4e30824450c79642
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
