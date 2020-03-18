@@ -6,3 +6,20 @@
 2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:38 - Can't get event details by id because of illegal argument
 2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:23 - Save event details with success
 2020-03-18 02:42:39 INFO  EventDetailsServiceImpl:55 - Can't delete event details because of illegal argument
+2020-03-18 03:32:20 INFO  EventServiceImpl:64 - Delete event by id = 1 with success
+2020-03-18 03:32:20 INFO  EventServiceImpl:35 - Get one event by id = 1 with success
+2020-03-18 03:32:21 INFO  EventServiceImpl:77 - Update event by id = null with success
+2020-03-18 03:32:21 INFO  EventServiceImpl:35 - Get one event by id = 1 with success
+2020-03-18 03:32:21 INFO  EventServiceImpl:23 - Save event with success
+2020-03-18 03:33:02 INFO  EventServiceImpl:35 - Get one event by id = 1 with success
+2020-03-18 03:34:12 INFO  EventServiceImpl:47 - Get one event by name = s with success
+2020-03-18 03:37:45 INFO  EventServiceImpl:80 - Can't update event by id because of illegal argument
+2020-03-18 03:37:45 INFO  EventServiceImpl:26 - Can't save event because of illegal argument
+2020-03-18 03:37:45 INFO  EventServiceImpl:38 - Can't get event by id because of illegal argument
+2020-03-18 03:37:45 INFO  EventServiceImpl:64 - Delete event by id = 1 with success
+2020-03-18 03:37:45 INFO  EventServiceImpl:47 - Get one event by name = s with success
+2020-03-18 03:37:45 INFO  EventServiceImpl:77 - Update event by id = null with success
+2020-03-18 03:37:45 INFO  EventServiceImpl:50 - Can't get event by name because of illegal argument
+2020-03-18 03:37:45 INFO  EventServiceImpl:35 - Get one event by id = 1 with success
+2020-03-18 03:37:45 INFO  EventServiceImpl:23 - Save event with success
+2020-03-18 03:37:45 INFO  EventServiceImpl:67 - Can't delete event by id because of illegal argument
