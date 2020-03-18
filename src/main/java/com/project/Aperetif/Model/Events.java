@@ -22,6 +22,13 @@ public class Events {
         this.eventDetailsId = eventDetailsId;
         this.eventsVenueId = eventsVenueId;
     }
+    public Events(String nameEvent, String describeEvent, Integer eventDetailsId, Integer eventsVenueId) {
+
+        this.nameEvent = nameEvent;
+        DescribeEvent = describeEvent;
+        this.eventDetailsId = eventDetailsId;
+        this.eventsVenueId = eventsVenueId;
+    }
 
     public Events() {
     }

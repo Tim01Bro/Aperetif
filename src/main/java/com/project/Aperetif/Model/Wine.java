@@ -33,6 +33,16 @@ public class Wine {
         this.id = id;
     }
 
+    public Wine(String nameWine, Integer rating, Integer typeWines, String describe, Integer quantity, String filename, String dateAdded) {
+        this.nameWine = nameWine;
+        this.rating = rating;
+        this.typeWines = typeWines;
+        this.describe = describe;
+        this.quantity = quantity;
+        this.filename = filename;
+        this.dateAdded = dateAdded;
+    }
+
     public Wine() {
     }
 

@@ -27,7 +27,7 @@ public class WineDaoImplTest {
 
     @Test
     public void saveWine() {
-        Wine wine = new Wine(1L,"",1, TypeWine.BERRY.ordinal(),"",12,"", LocalDate.now().toString());
+        Wine wine = new Wine(4L,"",1, TypeWine.BERRY.ordinal(),"",12,"", LocalDate.now().toString());
         assertTrue(wineDao.saveWine(wine) > 0);
 
     }
