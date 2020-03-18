@@ -24,6 +24,15 @@ public class EventsVenue {
         this.id = id;
     }
 
+
+    public EventsVenue(String placeEvent, String addressEvent,
+                       String webSiteEvent, String phoneEvent) {
+        PlaceEvent = placeEvent;
+        AddressEvent = addressEvent;
+        this.webSiteEvent = webSiteEvent;
+        this.phoneEvent = phoneEvent;
+    }
+
     public EventsVenue() {
     }
 

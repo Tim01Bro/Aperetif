@@ -23,3 +23,19 @@
 2020-03-18 03:37:45 INFO  EventServiceImpl:35 - Get one event by id = 1 with success
 2020-03-18 03:37:45 INFO  EventServiceImpl:23 - Save event with success
 2020-03-18 03:37:45 INFO  EventServiceImpl:67 - Can't delete event by id because of illegal argument
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:68 - Can't update event venue because of illegal argument
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:26 - Can't save event venue because of illegal argument
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:38 - Can't get venue by id because of illegal argument
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:52 - Delete event venue by id = 1 with success
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:65 - Update event venue with success
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:35 - Get event venue by id = 1 with success
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:23 - Save event venue with success
+2020-03-18 19:56:16 INFO  EventsVenueServiceImpl:55 - Can't get venue by id because of illegal argument
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:68 - Can't update event venue because of illegal argument
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:26 - Can't save event venue because of illegal argument
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:38 - Can't get venue by id because of illegal argument
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:52 - Delete event venue by id = 1 with success
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:65 - Update event venue with success
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:35 - Get event venue by id = 1 with success
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:23 - Save event venue with success
+2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:55 - Can't get venue by id because of illegal argument

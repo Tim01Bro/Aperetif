@@ -82,6 +82,7 @@ public class SpringConfig {
     @Bean
     public EventService getEventService(){return new EventServiceImpl();}
 
-
+    @Bean
+    public EventsVenueService getEventVenueService(){return new EventsVenueServiceImpl();}
 
 }
