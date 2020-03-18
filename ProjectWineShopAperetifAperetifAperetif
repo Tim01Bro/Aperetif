@@ -39,3 +39,19 @@
 2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:35 - Get event venue by id = 1 with success
 2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:23 - Save event venue with success
 2020-03-18 19:56:30 INFO  EventsVenueServiceImpl:55 - Can't get venue by id because of illegal argument
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:26 - Can't save feedback because of illegal argument
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:47 - Get feedback by name = sas with success
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:23 - Save feedback with success
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:35 - Get feedback by id = 1 with success
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:50 - Can't get feedback by name because of illegal argument
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:67 - Can't delete feedback by id because of illegal argument
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:35 - Get feedback by id = 1 with success
+2020-03-18 20:29:54 INFO  FeedBackServiceImpl:64 - Delete feedback by id = 1 with success
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:26 - Can't save feedback because of illegal argument
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:47 - Get feedback by name = sas with success
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:23 - Save feedback with success
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:35 - Get feedback by id = 1 with success
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:50 - Can't get feedback by name because of illegal argument
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:67 - Can't delete feedback by id because of illegal argument
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:38 - Can't get feedback by id because of illegal argument
+2020-03-18 20:30:21 INFO  FeedBackServiceImpl:64 - Delete feedback by id = 1 with success
