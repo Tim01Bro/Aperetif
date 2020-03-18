@@ -87,4 +87,7 @@ public class SpringConfig {
 
     @Bean
     public FeedBackService getFeedBackService(){return new FeedBackServiceImpl();}
+
+    @Bean
+    public WorkersService getWorkerService(){return new WorkersServiceImpl();}
 }

@@ -55,3 +55,13 @@
 2020-03-18 20:30:21 INFO  FeedBackServiceImpl:67 - Can't delete feedback by id because of illegal argument
 2020-03-18 20:30:21 INFO  FeedBackServiceImpl:38 - Can't get feedback by id because of illegal argument
 2020-03-18 20:30:21 INFO  FeedBackServiceImpl:64 - Delete feedback by id = 1 with success
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:72 - Can't update worker because of illegal argument
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:37 - Get worker by id = 1 with success
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:28 - Can't save worker because of illegal argument
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:69 - Update worker with success
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:80 - Delete worker by id = 1 with success
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:49 - Get worker by name = sa with success
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:40 - Can't get worker by id because illegal argument
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:52 - Can't get worker name because of illegal argument
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:25 - Save worker with success
+2020-03-18 21:16:13 INFO  WorkersServiceImpl:83 - Can't delete by id because of illegal argument
