@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Aperetif" target="8" />
+      <module name="Aperetif" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

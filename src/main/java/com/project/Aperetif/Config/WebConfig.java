@@ -30,5 +30,20 @@ public class WebConfig implements WebMvcConfigurer {
         freeMarkerConfigurer.setTemplateLoaderPaths("/", "/WEB-INF/views/");
         return freeMarkerConfigurer;
     }
+    @Override
+    public void addResourceHandlers(ResourceHandlerRegistry registry) {
+        registry.addResourceHandler("/css/**")
+                .addResourceLocations("/WEB-INF/static/css/");
+
+        registry.addResourceHandler("/js/**")
+                .addResourceLocations("/WEB-INF/static/js/");
+
+        registry.addResourceHandler("/img/**")
+                .addResourceLocations("/WEB-INF/static/img/");
+
+        registry.addResourceHandler("/fonts/**")
+                .addResourceLocations("/WEB-INF/static/fonts/");
+
+    }
     
 }
