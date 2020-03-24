@@ -41,6 +41,7 @@ public class UserDaoImplTest {
     public void getUserByName() {
         Users users = userDao.getUserByName("Tim");
         Assert.assertNotNull(users);
+
     }
 
     @Test
@@ -51,7 +52,7 @@ public class UserDaoImplTest {
 
     @Test
     public void deleteUser() {
-        Assert.assertTrue(userDao.deleteUser(1L) > 0);
+        Assert.assertTrue(userDao.deleteUser(9L) > 0);
     }
 
     @Test

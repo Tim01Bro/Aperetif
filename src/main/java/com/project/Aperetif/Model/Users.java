@@ -1,10 +1,14 @@
 package com.project.Aperetif.Model;
 
 import com.project.Aperetif.Model.enums.Role;
+import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.userdetails.UserDetails;
 
+import java.util.Collection;
+import java.util.Collections;
 import java.util.Objects;
 
-public class Users {
+public class Users implements UserDetails {
 
     private Long id;
 
@@ -46,6 +50,29 @@ public class Users {
         return username;
     }
 
+    public boolean isAdmin(){
+        return role == Role.ADMIN;
+    }
+    @Override
+    public boolean isAccountNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isAccountNonLocked() {
+        return true;
+    }
+
+    @Override
+    public boolean isCredentialsNonExpired() {
+        return true;
+    }
+
+    @Override
+    public boolean isEnabled() {
+        return true;
+    }
+
     public void setUsername(String username) {
         this.username = username;
     }
@@ -56,6 +83,11 @@ public class Users {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    @Override
+    public Collection<? extends GrantedAuthority> getAuthorities() {
+        return Collections.singleton(getRole());
     }
 
     public String getPassword() {

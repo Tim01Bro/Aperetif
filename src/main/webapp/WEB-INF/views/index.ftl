@@ -7,5 +7,9 @@
 </head>
 <body>
 <p id="cred">HELLONIGGA</p>
+<form action="/AP_Main/logout" method="post">
+    <input type="hidden" name="_csrf" value="${_csrf.token}"/>
+    <button type="submit">exit</button>
+</form>
 </body>
 </html>

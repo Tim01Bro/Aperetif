@@ -10,17 +10,17 @@
       <Owner>postgres</Owner>
       <IntrospectionStateNumber>13798</IntrospectionStateNumber>
       <Current>1</Current>
-      <Relations>sequence|table|62894|62896|1
-sequence|table|62910|62912|1
-sequence|table|62926|62928|1
-sequence|table|62942|62944|1
-sequence|table|62977|62979|1
+      <Relations>sequence|table|63061|63063|1
 sequence|table|62988|62990|1
 sequence|table|63004|63006|1
 sequence|table|63015|63017|1
 sequence|table|63032|63034|1
 sequence|table|63050|63052|1
-sequence|table|63061|63063|1
+sequence|table|62926|62928|1
+sequence|table|62942|62944|1
+sequence|table|62977|62979|1
+sequence|table|62894|62896|1
+sequence|table|62910|62912|1
 </Relations>
     </database>
     <database id="3" parent="1" name="CookBook">
