@@ -5,15 +5,35 @@ import com.project.Aperetif.Model.Users;
 import com.project.Aperetif.Services.interfaces.UserService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
+import java.util.Collections;
 import java.util.List;
 
-public class UserServiceImpl implements UserService {
+public class UserServiceImpl implements UserService, UserDetailsService {
 
     private static final Logger log = Logger.getLogger(UserServiceImpl.class);
 
     @Autowired
     private UserDao userDao;
+
+    @Autowired
+    private BCryptPasswordEncoder passwordEncoder;
+
+    @Override
+    public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+        Users user = userDao.getUserByName(username);
+        BCryptPasswordEncoder encoder = passwordEncoder;
+
+        if(user==null){
+            throw new UsernameNotFoundException("User not found in DataBase");
+        }
+         return new org.springframework.security.core.userdetails.User(user.getUsername(),encoder.encode(user.getPassword()), Collections.singleton(user.getRole()));
+
+    }
 
     @Override
     public int saveUser(Users user) {
@@ -80,4 +100,5 @@ public class UserServiceImpl implements UserService {
         }
 
     }
+
 }

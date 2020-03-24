@@ -1,6 +1,8 @@
 package com.project.Aperetif.Model.enums;
 
-public enum  Role {
+import org.springframework.security.core.GrantedAuthority;
+
+public enum  Role implements GrantedAuthority {
     ADMIN(1),USER(2);
 
     private int indexForDb;
@@ -15,5 +17,10 @@ public enum  Role {
 
     public static Role findByIndex(int index){
         return index == 1 ? Role.ADMIN : Role.USER;
+    }
+
+    @Override
+    public String getAuthority() {
+        return name();
     }
 }
