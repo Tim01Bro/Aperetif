@@ -30,7 +30,7 @@ public class EventDetailsServiceImpl implements EventDetailsService {
     }
 
     @Override
-    public EventDetails getEventById(Long id) {
+    public EventDetails getEventById(Integer id) {
         if(id != null && id > 0){
             log.info("Get event details by id = " + id + " with success");
             return eventsDetailsDao.getEventById(id);

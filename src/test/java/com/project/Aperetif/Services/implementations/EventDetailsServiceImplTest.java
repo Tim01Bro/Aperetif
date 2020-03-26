@@ -39,8 +39,8 @@ public class EventDetailsServiceImplTest {
 
     @Test
     public void getEventById() {
-        when(eventsDetailsDao.getEventById(1L)).thenReturn(new EventDetails("as","sa",12, CategoryEvent.WINE_TASTING));
-        assertEquals("as",eventDetailsService.getEventById(1L).getDateStart());
+        when(eventsDetailsDao.getEventById(1)).thenReturn(new EventDetails("as","sa",12, CategoryEvent.WINE_TASTING));
+        assertEquals("as",eventDetailsService.getEventById(1).getDateStart());
     }
 
     @Test
@@ -69,8 +69,8 @@ public class EventDetailsServiceImplTest {
 
     @Test
     public void FailedGetEventById(){
-        when(eventsDetailsDao.getEventById(-1L)).thenReturn(null);
-        assertNull(eventDetailsService.getEventById(-1L));
+        when(eventsDetailsDao.getEventById(-1)).thenReturn(null);
+        assertNull(eventDetailsService.getEventById(-1));
     }
 
     @Test

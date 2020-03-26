@@ -23,15 +23,15 @@ public class EventDetailsDaoImpl implements EventsDetailsDao {
     }
     @Override
     public int saveEvents(EventDetails event) {
-        String sql = "INSERT INTO eventdetails(id, datestart, timestart, costevent, categoryevent)" +
-                " values (?,?,?,?,?)";
+        String sql = "INSERT INTO eventdetails( datestart, timestart, costevent, categoryevent)" +
+                " values (?,?,?,?)";
         log.info("Save eventdetails to database to table eventdetails");
-        return jdbcTemplate.update(sql,event.getId(),event.getDateStart(),
+        return jdbcTemplate.update(sql,event.getDateStart(),
                 event.getTimeStart(),event.getCostEvent(),event.getCategoryEvents().getIndexForDb());
     }
 
     @Override
-    public EventDetails getEventById(Long id) {
+    public EventDetails getEventById(Integer id) {
         String sql = "SELECT * FROM eventdetails WHERE id = ?";
         log.info("Get one eventdetailes by id = "+id);
         return jdbcTemplate.queryForObject(sql,new EventDetailsMapper(),id);

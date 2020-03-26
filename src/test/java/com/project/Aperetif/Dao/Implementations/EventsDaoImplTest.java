@@ -1,7 +1,6 @@
 package com.project.Aperetif.Dao.Implementations;
 
 import com.project.Aperetif.Dao.Interfaces.EventsDao;
-import com.project.Aperetif.Dao.Interfaces.FeedBackDao;
 import com.project.Aperetif.Model.Events;
 import org.junit.Before;
 import org.junit.Test;
@@ -9,7 +8,8 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 public class EventsDaoImplTest {
     private EventsDao eventsDao;
@@ -26,7 +26,7 @@ public class EventsDaoImplTest {
 
     @Test
     public void saveEvents() {
-        Events ev = new Events(1L,"teasd","asdsa",1,1);
+        Events ev = new Events("teasd","asdsa",1,1);
         assertTrue(eventsDao.saveEvents(ev) > 0);
     }
 

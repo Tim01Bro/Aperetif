@@ -24,10 +24,10 @@ public class EventsDaoImpl implements EventsDao {
 
     @Override
     public int saveEvents(Events ev) {
-        String sql = "INSERT INTO events(id,nameevent,describeevent,eventdetailsid,eventsvenueid)" +
-                "values(?,?,?,?,?)";
+        String sql = "INSERT INTO events(nameevent,describeevent,eventdetailsid,eventsvenueid)" +
+                "values(?,?,?,?)";
         log.info("Save events to database to table events");
-        return jdbcTemplate.update(sql,ev.getId(),ev.getNameEvent(),ev.getDescribeEvent(),
+        return jdbcTemplate.update(sql,ev.getNameEvent(),ev.getDescribeEvent(),
                 ev.getEventDetailsId(),ev.getEventsVenueId());
     }
 

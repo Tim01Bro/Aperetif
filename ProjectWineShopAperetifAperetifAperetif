@@ -1,0 +1,14 @@
+2020-03-25 15:54:22 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-25 15:54:39 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-25 15:54:58 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-25 15:55:01 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-25 15:55:04 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-25 15:55:15 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-25 15:55:57 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-26 02:23:20 INFO  EventDetailsDaoImpl:28 - Save eventdetails to database to table eventdetails
+2020-03-26 02:23:59 INFO  EventDetailsDaoImpl:28 - Save eventdetails to database to table eventdetails
+2020-03-26 02:24:14 INFO  EventDetailsDaoImpl:28 - Save eventdetails to database to table eventdetails
+2020-03-26 02:25:11 INFO  EventsDaoImpl:29 - Save events to database to table events
+2020-03-26 02:25:36 INFO  EventsDaoImpl:29 - Save events to database to table events
+2020-03-26 02:28:15 INFO  EventsDaoImpl:51 - Get all events
+2020-03-26 02:29:39 INFO  EventVenueDaoImpl:29 - Save event venue to database to table eventsvenue

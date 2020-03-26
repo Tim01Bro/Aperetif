@@ -7,7 +7,7 @@ import java.util.List;
 public interface EventDetailsService {
     int saveEvents(EventDetails event);
 
-    EventDetails getEventById(Long id);
+    EventDetails getEventById(Integer id);
 
     List<EventDetails> findAll();
 

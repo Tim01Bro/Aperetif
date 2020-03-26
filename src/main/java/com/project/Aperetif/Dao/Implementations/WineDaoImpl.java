@@ -24,9 +24,9 @@ public class WineDaoImpl implements WineDao {
 
     @Override
     public int saveWine(Wine wine) {
-        String sql = "INSERT INTO wine(id,namewine,rating,typewinesid,describewine,quantity,filename,dateadded) values (?,?,?,?,?,?,?,?)";
+        String sql = "INSERT INTO wine(namewine,rating,typewinesid,describewine,quantity,filename,dateadded) values (?,?,?,?,?,?,?)";
         log.info("Save wine to database to table wine");
-        return jdbcTemplate.update(sql,wine.getId(),wine.getNameWine(),
+        return jdbcTemplate.update(sql,wine.getNameWine(),
                 wine.getRating(),wine.getTypeWines(),wine.getDescribe(),
                 wine.getQuantity(),wine.getFilename(), Date.valueOf(wine.getDateAdded()));
     }

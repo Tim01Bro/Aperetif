@@ -15,6 +15,10 @@ public class Events {
 
     private Integer eventsVenueId;
 
+    private EventsVenue eventsVenue;
+
+    private EventDetails eventDetails;
+
     public Events(Long id, String nameEvent, String describeEvent, Integer eventDetailsId, Integer eventsVenueId) {
         this.id = id;
         this.nameEvent = nameEvent;
@@ -71,6 +75,22 @@ public class Events {
 
     public void setEventsVenueId(Integer eventsVenueId) {
         this.eventsVenueId = eventsVenueId;
+    }
+
+    public EventsVenue getEventsVenue() {
+        return eventsVenue;
+    }
+
+    public void setEventsVenue(EventsVenue eventsVenue) {
+        this.eventsVenue = eventsVenue;
+    }
+
+    public EventDetails getEventDetails() {
+        return eventDetails;
+    }
+
+    public void setEventDetails(EventDetails eventDetails) {
+        this.eventDetails = eventDetails;
     }
 
     @Override
