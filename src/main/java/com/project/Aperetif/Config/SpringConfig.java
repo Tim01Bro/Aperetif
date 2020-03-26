@@ -96,4 +96,10 @@ public class SpringConfig {
     public BCryptPasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
     }
+
+    @Bean
+    public FavoriteWinesDao getFavoriteWineDao(){return new FavoriteWineDaoImpl(getDataSource());}
+
+    @Bean
+    public FavoriteWineService getFavoriteWineService(){return new FavoriteWineServiceImpl();}
 }

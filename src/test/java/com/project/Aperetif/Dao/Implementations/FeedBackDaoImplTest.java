@@ -1,8 +1,7 @@
 package com.project.Aperetif.Dao.Implementations;
 
 import com.project.Aperetif.Dao.Interfaces.FeedBackDao;
-import com.project.Aperetif.Dao.Interfaces.UserDao;
-import com.project.Aperetif.Model.FeedBack;
+ import com.project.Aperetif.Model.FeedBack;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;

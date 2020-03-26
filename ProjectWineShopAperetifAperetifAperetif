@@ -27,3 +27,13 @@
 2020-03-26 21:43:38 INFO  WineDaoImpl:45 - Get wine by name =
 2020-03-26 21:44:04 INFO  WineDaoImpl:45 - Get wine by name =asdasd
 2020-03-26 22:05:17 INFO  WineDaoImpl:45 - Get wine by name =asdasd
+2020-03-26 22:57:07 INFO  FavoriteWineDaoImpl:28 - Add favorite wine by wine id = 7and user id by = 10
+2020-03-26 22:57:23 INFO  FavoriteWineDaoImpl:28 - Add favorite wine by wine id = 10and user id by = 7
+2020-03-26 22:59:23 INFO  FavoriteWineDaoImpl:37 - Get all favoorite wine
+2020-03-26 22:59:28 INFO  FavoriteWineDaoImpl:44 - Get all faworite wine by user id = 7
+2020-03-26 22:59:32 INFO  FavoriteWineDaoImpl:51 - Delete favorite wine by id = 1
+2020-03-26 22:59:46 INFO  FavoriteWineDaoImpl:51 - Delete favorite wine by id = 10
+2020-03-26 23:29:01 INFO  FavoriteWineServiceImpl:38 - Get all favorite wine by user id
+2020-03-26 23:29:01 INFO  FavoriteWineServiceImpl:20 - Save favorite wine by user id and wine id
+2020-03-26 23:29:01 INFO  FavoriteWineServiceImpl:31 - Get all favorite wine
+2020-03-26 23:29:01 INFO  FavoriteWineServiceImpl:50 - Delete favorite wine by id = 1
