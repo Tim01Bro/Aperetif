@@ -2,6 +2,7 @@ package com.project.Aperetif.Services.implementations;
 
 import com.project.Aperetif.Dao.Interfaces.WineDao;
 import com.project.Aperetif.Model.Wine;
+import com.project.Aperetif.Model.enums.TypeWine;
 import com.project.Aperetif.Services.interfaces.WineService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,7 +40,7 @@ public class WineServiceImpl implements WineService {
     }
 
     @Override
-    public Wine getWineByName(String name) {
+    public List<Wine> getWineByName(String name) {
         if(!name.equals("")){
             log.info("Get wine by name = " + name + " with success");
             return wineDao.getWineByName(name);
@@ -75,5 +76,28 @@ public class WineServiceImpl implements WineService {
             log.info("Can't update wine by because of id illegal argument");
             return 0;
         }
+    }
+
+    @Override
+    public List<Wine> findByType(TypeWine typeWine) {
+        if(typeWine!=null){
+            log.info("Get all wine by type");
+            return wineDao.findByType(typeWine);
+        }else {
+            log.info("Can't get wine by type because of  illegal argument");
+            return null;
+        }
+    }
+
+    @Override
+    public List<Wine> findByLimitPrice(Integer minPrice, Integer maxPrice) {
+        if(minPrice>-1 && maxPrice > -1 && minPrice < maxPrice) {
+            log.info("Get all wine by limit price");
+            return wineDao.findByLimitPrice(minPrice,maxPrice);
+        }else{
+            log.info("Can't get wine by limit price because of illegal argument");
+            return null;
+        }
+
     }
 }

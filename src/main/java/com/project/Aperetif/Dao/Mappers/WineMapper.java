@@ -18,6 +18,7 @@ public class WineMapper implements RowMapper<Wine> {
         wine.setQuantity(resultSet.getInt("quantity"));
         wine.setFilename(resultSet.getString("filename"));
         wine.setDateAdded(resultSet.getDate("dateadded").toString());
+        wine.setPrice(resultSet.getInt("price"));
         return wine;
     }
 }

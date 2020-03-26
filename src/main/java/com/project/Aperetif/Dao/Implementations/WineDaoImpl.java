@@ -3,6 +3,7 @@ package com.project.Aperetif.Dao.Implementations;
 import com.project.Aperetif.Dao.Interfaces.WineDao;
 import com.project.Aperetif.Dao.Mappers.WineMapper;
 import com.project.Aperetif.Model.Wine;
+import com.project.Aperetif.Model.enums.TypeWine;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
@@ -24,11 +25,11 @@ public class WineDaoImpl implements WineDao {
 
     @Override
     public int saveWine(Wine wine) {
-        String sql = "INSERT INTO wine(namewine,rating,typewinesid,describewine,quantity,filename,dateadded) values (?,?,?,?,?,?,?)";
+        String sql = "INSERT INTO wine(namewine, rating, typewinesid, describewine, quantity, filename, dateadded, Price) values (?,?,?,?,?,?,?,?)";
         log.info("Save wine to database to table wine");
         return jdbcTemplate.update(sql,wine.getNameWine(),
                 wine.getRating(),wine.getTypeWines(),wine.getDescribe(),
-                wine.getQuantity(),wine.getFilename(), Date.valueOf(wine.getDateAdded()));
+                wine.getQuantity(),wine.getFilename(), Date.valueOf(wine.getDateAdded()),wine.getPrice());
     }
 
     @Override
@@ -39,10 +40,10 @@ public class WineDaoImpl implements WineDao {
     }
 
     @Override
-    public Wine getWineByName(String name) {
-        String sql = "SELECT * FROM wine WHERE namewine = ?";
+    public List<Wine> getWineByName(String name) {
+        String sql = "SELECT * FROM wine WHERE namewine LIKE ?";
         log.info("Get wine by name =" + name);
-        return jdbcTemplate.queryForObject(sql,new WineMapper(),name);
+        return jdbcTemplate.query(sql,new WineMapper(),name);
     }
 
     @Override
@@ -63,11 +64,25 @@ public class WineDaoImpl implements WineDao {
     public int update(Wine wine) {
         String sql = "UPDATE Wine Set  namewine = ? ," +
                 " rating = ?, typewinesid = ?, describewine = ?, quantity = ?," +
-                "filename = ?,dateadded=? WHERE id = ?";
+                "filename = ?,dateadded=?,price=? WHERE id = ?";
 
         log.info("Update wine");
         return jdbcTemplate.update(sql,wine.getNameWine(),
                 wine.getRating(),wine.getTypeWines(),wine.getDescribe(),wine.getQuantity(),
-                wine.getFilename(),Date.valueOf(wine.getDateAdded()),wine.getId());
+                wine.getFilename(),Date.valueOf(wine.getDateAdded()),wine.getPrice(),wine.getId());
+    }
+
+    @Override
+    public List<Wine> findByType(TypeWine typeWine) {
+        String sql = "SELECT * FROM wine WHERE typewinesid=?";
+        log.info("Find all wine by type");
+        return jdbcTemplate.query(sql,new WineMapper(),typeWine.ordinal());
+    }
+
+    @Override
+    public List<Wine> findByLimitPrice(Integer minPrice, Integer maxPrice) {
+        String sql = "SELECT * FROM wine WHERE Price > ? AND Price < ?";
+        log.info("Find all wine by limit price");
+        return jdbcTemplate.query(sql,new WineMapper(),minPrice,maxPrice);
     }
 }

@@ -12,3 +12,18 @@
 2020-03-26 02:25:36 INFO  EventsDaoImpl:29 - Save events to database to table events
 2020-03-26 02:28:15 INFO  EventsDaoImpl:51 - Get all events
 2020-03-26 02:29:39 INFO  EventVenueDaoImpl:29 - Save event venue to database to table eventsvenue
+2020-03-26 17:11:59 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-26 17:27:09 INFO  WineDaoImpl:78 - Update wine
+2020-03-26 17:40:36 INFO  WineDaoImpl:29 - Save wine to database to table wine
+2020-03-26 17:41:06 INFO  WineDaoImpl:29 - Save wine to database to table wine
+2020-03-26 17:42:41 INFO  WineDaoImpl:29 - Save wine to database to table wine
+2020-03-26 17:43:36 INFO  WineDaoImpl:29 - Save wine to database to table wine
+2020-03-26 17:43:53 INFO  WineDaoImpl:29 - Save wine to database to table wine
+2020-03-26 17:44:01 INFO  WineDaoImpl:29 - Save wine to database to table wine
+2020-03-26 17:44:24 INFO  WineDaoImpl:85 - Find all wine by limit price
+2020-03-26 17:44:36 INFO  WineDaoImpl:85 - Find all wine by limit price
+2020-03-26 21:41:58 INFO  WineDaoImpl:45 - Get wine by name =
+2020-03-26 21:42:28 INFO  WineDaoImpl:45 - Get wine by name =
+2020-03-26 21:43:38 INFO  WineDaoImpl:45 - Get wine by name =
+2020-03-26 21:44:04 INFO  WineDaoImpl:45 - Get wine by name =asdasd
+2020-03-26 22:05:17 INFO  WineDaoImpl:45 - Get wine by name =asdasd

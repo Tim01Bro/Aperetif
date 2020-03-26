@@ -10,4 +10,9 @@ public class AboutUsController {
     public String aboutUsPage(){
         return "aboutusPage";
     }
+
+    @GetMapping("/outstory")
+    public String OutStory(){
+        return "outstoryPage";
+    }
 }

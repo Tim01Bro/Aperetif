@@ -32,26 +32,26 @@ public class WineServiceImplTest {
 
     @Test
     public void saveWine() {
-        when(wineDao.saveWine(new Wine("Wine",12,23,"wine",12,"asd","sdas"))).thenReturn(1);
-        assertEquals(1,wineService.saveWine(new Wine("Wine",12,23,"wine",12,"asd","sdas")));
+        when(wineDao.saveWine(new Wine("Wine",12,23,"wine",12,"asd","sdas",12))).thenReturn(1);
+        assertEquals(1,wineService.saveWine(new Wine("Wine",12,23,"wine",12,"asd","sdas",12)));
 
     }
 
     @Test
     public void getWineById() {
-        when(wineDao.getWineById(1L)).thenReturn(new Wine("Wine",12,23,"wine",12,"asd","sdas"));
+        when(wineDao.getWineById(1L)).thenReturn(new Wine("Wine",12,23,"wine",12,"asd","sdas",12));
         assertEquals("Wine",wineService.getWineById(1L).getNameWine());
     }
 
     @Test
     public void getWineByName() {
-        when(wineDao.getWineByName("Wine")).thenReturn(new Wine("Wine",12,23,"wine",12,"asd","sdas"));
-        assertEquals(Integer.valueOf(12),wineService.getWineByName("Wine").getQuantity());
+        when(wineDao.getWineByName("Wine")).thenReturn(Stream.of(new Wine("Wine",12,23,"wine",12,"asd","sdas",12)).collect(Collectors.toList()));
+        assertEquals(1,wineService.getWineByName("Wine").size());
     }
 
     @Test
     public void findAll() {
-        when(wineDao.findAll()).thenReturn(Stream.of(new Wine("Wine",12,23,"wine",12,"asd","sdas")).collect(Collectors.toList()));
+        when(wineDao.findAll()).thenReturn(Stream.of(new Wine("Wine",12,23,"wine",12,"asd","sdas",12)).collect(Collectors.toList()));
         assertEquals(1,wineService.findAll().size());
     }
 
@@ -63,14 +63,14 @@ public class WineServiceImplTest {
 
     @Test
     public void update() {
-        when(wineDao.update(new Wine("Wine",12,23,"wine",12,"asd","sdas"))).thenReturn(1);
-        assertEquals(1,wineService.update(new Wine("Wine",12,23,"wine",12,"asd","sdas")));
+        when(wineDao.update(new Wine("Wine",12,23,"wine",12,"asd","sdas",12))).thenReturn(1);
+        assertEquals(1,wineService.update(new Wine("Wine",12,23,"wine",12,"asd","sdas",12)));
     }
 
     @Test
     public void FailedSave(){
-        when(wineDao.saveWine(new Wine("",12,23,"wine",12,"asd","sdas"))).thenReturn(0);
-        assertEquals(0,wineService.saveWine(new Wine("Wine",12,23,"wine",12,"asd","sdas")));
+        when(wineDao.saveWine(new Wine("",12,23,"wine",12,"asd","sdas",12))).thenReturn(0);
+        assertEquals(0,wineService.saveWine(new Wine("Wine",12,23,"wine",12,"asd","sdas",12)));
     }
 
     @Test
@@ -93,7 +93,7 @@ public class WineServiceImplTest {
 
     @Test
     public void FailedUpdate(){
-        when(wineDao.update(new Wine("",12,23,"wine",12,"asd","sdas"))).thenReturn(0);
-        assertEquals(0,wineService.update(new Wine("",12,23,"wine",12,"asd","sdas")));
+        when(wineDao.update(new Wine("",12,23,"wine",12,"asd","sdas",12))).thenReturn(0);
+        assertEquals(0,wineService.update(new Wine("",12,23,"wine",12,"asd","sdas",12)));
     }
 }
