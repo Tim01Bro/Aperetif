@@ -30,13 +30,4 @@ public class HomeController {
 
         return "homePage";
     }
-
-    @GetMapping("/test")
-    public String index(){
-        return "index";
-    }
-
-
-
-
 }

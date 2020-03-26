@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aperetif</title>
+    <title>Aperetif-Home</title>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
@@ -15,5 +15,6 @@
     <#list Events as ev>
         ${ev.getEventDetails().getCostEvent()}
     </#list>
+    <a href="/AP_Main/aboutus">about us</a>
 </body>
 </html>
