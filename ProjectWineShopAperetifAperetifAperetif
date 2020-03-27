@@ -37,3 +37,7 @@
 2020-03-26 23:29:01 INFO  FavoriteWineServiceImpl:20 - Save favorite wine by user id and wine id
 2020-03-26 23:29:01 INFO  FavoriteWineServiceImpl:31 - Get all favorite wine
 2020-03-26 23:29:01 INFO  FavoriteWineServiceImpl:50 - Delete favorite wine by id = 1
+2020-03-27 21:29:14 INFO  WineDaoImpl:78 - Find all wine by type
+2020-03-27 21:29:23 INFO  WineDaoImpl:78 - Find all wine by type
+2020-03-27 21:29:38 INFO  WineDaoImpl:78 - Find all wine by type
+2020-03-27 21:31:11 INFO  WineDaoImpl:78 - Find all wine by type

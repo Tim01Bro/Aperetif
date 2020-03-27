@@ -25,9 +25,9 @@ public class OrdersDaoImpl implements OrdersDao {
 
     @Override
     public int saveOrder(Orders orders) {
-        String sql = "INSERT INTO orders(id, userid, wineid, dateadd) VALUES (?,?,?,?)";
+        String sql = "INSERT INTO orders(userid, wineid, dateadd) VALUES (?,?,?)";
         log.info("Save order to database to table Orders");
-        return jdbcTemplate.update(sql,orders.getId(),orders.getUserId(),orders.getWineId(),Date.valueOf(orders.getDateAdd()));
+        return jdbcTemplate.update(sql,orders.getUserId(),orders.getWineId(),Date.valueOf(orders.getDateAdd()));
     }
 
     @Override

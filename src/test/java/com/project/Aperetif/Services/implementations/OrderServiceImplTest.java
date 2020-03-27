@@ -31,32 +31,32 @@ public class OrderServiceImplTest {
 
     @Test
     public void saveOrder() {
-        when(ordersDao.saveOrder(new Orders(1L,1,2,"s"))).thenReturn(1);
-        assertEquals(1,orderService.saveOrder(new Orders(1L,1,2,"s")));
+        when(ordersDao.saveOrder(new Orders(1L,1L,2,"s"))).thenReturn(1);
+        assertEquals(1,orderService.saveOrder(new Orders(1L,1L,2,"s")));
     }
 
     @Test
     public void getOneOrders() {
-        when(ordersDao.getOneOrders(1L)).thenReturn(new Orders(1L,1,2,""));
-        assertEquals(1,orderService.getOneOrders(1L).getUserId());
+        when(ordersDao.getOneOrders(1L)).thenReturn(new Orders(1L,1L,2,""));
+        assertEquals(new Long(1),orderService.getOneOrders(1L).getUserId());
     }
 
     @Test
     public void findAll() {
-        when(ordersDao.FindAll()).thenReturn(Stream.of(new Orders(1L,1,2,"")).collect(Collectors.toList()));
+        when(ordersDao.FindAll()).thenReturn(Stream.of(new Orders(1L,1L,2,"")).collect(Collectors.toList()));
         assertEquals(1,orderService.FindAll().size());
     }
 
     @Test
     public void findAllByUserId() {
-        when(ordersDao.FindAllByUserId(1L)).thenReturn(Stream.of(new Orders(1L,1,2,"")).collect(Collectors.toList()));
+        when(ordersDao.FindAllByUserId(1L)).thenReturn(Stream.of(new Orders(1L,1L,2,"")).collect(Collectors.toList()));
         assertEquals(1,orderService.FindAllByUserId(1L).size());
     }
 
     @Test
     public void updateOrder() {
-        when(ordersDao.updateOrder(new Orders(1L,1,2,"s"))).thenReturn(1);
-        assertEquals(1,orderService.updateOrder(new Orders(1L,1,2,"s")));
+        when(ordersDao.updateOrder(new Orders(1L,1L,2,"s"))).thenReturn(1);
+        assertEquals(1,orderService.updateOrder(new Orders(1L,1L,2,"s")));
     }
 
     @Test
@@ -67,8 +67,8 @@ public class OrderServiceImplTest {
 
     @Test
     public void FailedSave(){
-        when(ordersDao.saveOrder(new Orders(1L,-1,2,""))).thenReturn(0);
-        assertEquals(0,orderService.saveOrder(new Orders(1L,-1,2,"")));
+        when(ordersDao.saveOrder(new Orders(1L,-1L,2,""))).thenReturn(0);
+        assertEquals(0,orderService.saveOrder(new Orders(1L,-1L,2,"")));
     }
 
     @Test
@@ -85,8 +85,8 @@ public class OrderServiceImplTest {
 
     @Test
     public void FailedUpdate(){
-        when(ordersDao.updateOrder(new Orders(1L,-1,2,""))).thenReturn(0);
-        assertEquals(0,orderService.updateOrder(new Orders(1L,-1,2,"")));
+        when(ordersDao.updateOrder(new Orders(1L,-1L,2,""))).thenReturn(0);
+        assertEquals(0,orderService.updateOrder(new Orders(1L,-1L,2,"")));
     }
 
     @Test
