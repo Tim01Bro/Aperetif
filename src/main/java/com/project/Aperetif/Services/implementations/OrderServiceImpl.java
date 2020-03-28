@@ -1,7 +1,6 @@
 package com.project.Aperetif.Services.implementations;
 
 import com.project.Aperetif.Dao.Interfaces.OrdersDao;
-import com.project.Aperetif.Dao.Interfaces.UserDao;
 import com.project.Aperetif.Model.Orders;
 import com.project.Aperetif.Services.interfaces.OrderService;
 import org.apache.log4j.Logger;
@@ -72,6 +71,17 @@ public class OrderServiceImpl implements OrderService {
         if(idorder!=null && idorder>0){
             log.info("Delete order by id = " + idorder + " with success");
             return ordersDao.deleteOrder(idorder);
+        }else{
+            log.info("Can't delete order by id because of illegal argument");
+            return 0;
+        }
+    }
+
+    @Override
+    public int deleteAllByUserId(Long userId) {
+        if(userId!=null && userId>0){
+            log.info("Delete order by id = " + userId + " with success");
+            return ordersDao.deleteAllByUserId(userId);
         }else{
             log.info("Can't delete order by id because of illegal argument");
             return 0;

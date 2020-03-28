@@ -18,4 +18,5 @@ public interface OrdersDao {
 
     int deleteOrder(Long idorder);
 
+    int deleteAllByUserId(Long userId);
 }

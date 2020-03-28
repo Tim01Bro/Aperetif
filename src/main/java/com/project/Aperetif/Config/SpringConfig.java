@@ -102,4 +102,10 @@ public class SpringConfig {
 
     @Bean
     public FavoriteWineService getFavoriteWineService(){return new FavoriteWineServiceImpl();}
+
+    @Bean
+    public CheckoutOrderDao getCheckoutOrderDaoImpl(){return new CheckoutOrderDaoImpl(getDataSource());}
+
+    @Bean
+    public CheckoutOrderService getCheckoutOrdersServiceImpl(){return new CheckoutOrdersServiceImpl();}
 }

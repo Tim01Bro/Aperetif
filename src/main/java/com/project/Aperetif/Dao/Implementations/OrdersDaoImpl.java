@@ -65,4 +65,11 @@ public class OrdersDaoImpl implements OrdersDao {
         return jdbcTemplate.update(sql,idorder);
     }
 
+    @Override
+    public int deleteAllByUserId(Long userId) {
+        String sql = "DELETE FROM Orders WHERE userid = ?";
+        log.info("Delete order by id user = " + userId);
+        return jdbcTemplate.update(sql,userId);
+    }
+
 }

@@ -41,3 +41,21 @@
 2020-03-27 21:29:23 INFO  WineDaoImpl:78 - Find all wine by type
 2020-03-27 21:29:38 INFO  WineDaoImpl:78 - Find all wine by type
 2020-03-27 21:31:11 INFO  WineDaoImpl:78 - Find all wine by type
+2020-03-28 19:44:16 INFO  Orders:29 - Save order to database to table Orders
+2020-03-28 19:44:50 INFO  Orders:29 - Save order to database to table Orders
+2020-03-28 20:46:51 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =1
+2020-03-28 20:46:52 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =1
+2020-03-28 20:46:52 INFO  CheckoutOrderDaoImpl:36 - Get all checkoutOrders
+2020-03-28 20:46:52 INFO  CheckoutOrderDaoImpl:27 - Save checkoutorder to database to table CheckoutOrders
+2020-03-28 20:46:52 INFO  CheckoutOrderDaoImpl:43 - Get all checkoutorders by user = s
+2020-03-28 20:46:52 INFO  CheckoutOrderDaoImpl:69 - Delete order by id = 1
+2020-03-28 20:47:24 INFO  CheckoutOrderDaoImpl:27 - Save checkoutorder to database to table CheckoutOrders
+2020-03-28 20:47:27 INFO  CheckoutOrderDaoImpl:36 - Get all checkoutOrders
+2020-03-28 20:47:38 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =2
+2020-03-28 20:47:45 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =2
+2020-03-28 20:47:45 INFO  CheckoutOrderDaoImpl:58 - Update CheckoutOrder by id = 2
+2020-03-28 20:48:36 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =2
+2020-03-28 20:48:36 INFO  CheckoutOrderDaoImpl:58 - Update CheckoutOrder by id = 2
+2020-03-28 20:49:31 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =2
+2020-03-28 20:49:31 INFO  CheckoutOrderDaoImpl:58 - Update CheckoutOrder by id = 2
+2020-03-28 20:49:43 INFO  CheckoutOrderDaoImpl:69 - Delete order by id = 2

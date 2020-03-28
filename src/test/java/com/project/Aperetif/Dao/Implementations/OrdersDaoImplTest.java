@@ -26,7 +26,7 @@ public class OrdersDaoImplTest {
     }
     @Test
     public void saveOrder() {
-        Orders orders = new Orders(1L,1L,1,  LocalDate.now().toString());
+        Orders orders = new Orders(1L,8L,9,  LocalDate.now().toString());
         assertTrue(ordersDao.saveOrder(orders) > 0);
     }
 
