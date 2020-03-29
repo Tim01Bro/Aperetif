@@ -7,34 +7,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79f68963-225d-4a38-b47e-091d28223d10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/OrderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/CheckoutOrderDaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/CheckoutOrderDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Mappers/CheckoutOrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/CheckoutOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/CheckoutOrdersServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/CheckoutOrderService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/checkoutOrderPage.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ordersPage.ftl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/CheckoutOrderDaoImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Services/implementations/CheckoutOrdersServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/FavoriteWineController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/RegistrationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/favoritewinePage.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/pg_temp_1.zkWuFg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/pg_toast.33HYYw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/pg_toast_temp_1.5ixBaA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectWineShopAperetifAperetifAperetif" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectWineShopAperetifAperetifAperetif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/OrdersDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/OrdersDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/OrdersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/OrdersDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/OrderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/OrderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/OrdersDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/OrdersDaoImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Config/SpringConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Config/SpringConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Dao/Implementations/OrdersDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Dao/Implementations/OrdersDaoImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Dao/Mappers/OrdersMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Dao/Mappers/OrdersMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Model/Orders.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Model/Orders.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Model/enums/TypeWine.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Model/enums/TypeWine.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Services/implementations/OrderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Services/implementations/OrderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/project/Aperetif/Dao/Implementations/OrdersDaoImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/project/Aperetif/Dao/Implementations/OrdersDaoImplTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/project/Aperetif/Services/implementations/OrderServiceImplTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/project/Aperetif/Services/implementations/OrderServiceImplTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Dao/Interfaces/OrdersDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Dao/Interfaces/OrdersDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Services/interfaces/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Services/interfaces/OrderService.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -104,16 +89,6 @@
         <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
         <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="Aperetif@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="Aperetif: database" type="162271b6:PgImplModel$Database" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
-        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="checkoutorder: table" type="69fad909:PgImplModel$LocalTable" />
-      </path>
     </expand>
     <select />
   </component>
@@ -121,12 +96,12 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/OrderController.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/FavoriteWineController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="60" column="85" selection-start-line="60" selection-start-column="85" selection-end-line="60" selection-end-column="85" />
+            <state relative-caret-position="359">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,11 +109,63 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ProjectWineShopAperetifAperetifAperetif">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-454" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Orders.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/favoritewinePage.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="das://a65f36d8-a1ce-432c-96f7-fe365a359ed3/database/Aperetif/schema/public/table/orders">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Wine.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="68" column="29" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/FavoriteWIne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="38" column="25" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/checkoutOrderPage.ftl">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="187">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+              <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -152,8 +179,8 @@
         <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="Interface" />
-        <option value="Class" />
         <option value="JUnit4 Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -168,9 +195,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/ShopPage.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Mappers/WineMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Wine.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/WineDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/WineService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/WineServiceImpl.java" />
@@ -219,6 +243,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/OrderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/checkoutOrderPage.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/RegistrationController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/FavoriteWineController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/favoritewinePage.ftl" />
       </list>
     </option>
   </component>
@@ -247,9 +274,9 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="952" />
-    <option name="width" value="977" />
-    <option name="height" value="1038" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectId" id="1Z7sEoBqLJpsxL1yFOoYkyHIL80" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -258,6 +285,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -299,6 +327,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Aperetif" type="462c0819:PsiDirectoryNode" />
+              <item name="Controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aperetif" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aperetif" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Aperetif" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Aperetif" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Aperetif" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="Aperetif" type="462c0819:PsiDirectoryNode" />
               <item name="Services" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -309,7 +355,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Aperetif" type="462c0819:PsiDirectoryNode" />
               <item name="Services" type="462c0819:PsiDirectoryNode" />
-              <item name="implementations" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Aperetif" type="b2602c69:ProjectViewProjectNode" />
@@ -345,7 +391,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -627,12 +672,12 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Tomcat Server.Aperetif" />
       <item itemvalue="JUnit.CheckoutOrderDaoImplTest.findAllCheckoutOrders" />
       <item itemvalue="JUnit.CheckoutOrderDaoImplTest.getOneCheckoutOrderById" />
       <item itemvalue="JUnit.CheckoutOrderDaoImplTest.updateCheckoutOrder" />
       <item itemvalue="JUnit.CheckoutOrderDaoImplTest.deleteCheckoutOrderById" />
       <item itemvalue="JUnit.CheckoutOrdersServiceImplTest.saveCheckoutOrder" />
+      <item itemvalue="Tomcat Server.Aperetif" />
     </list>
     <recent_temporary>
       <list>
@@ -684,7 +729,8 @@
       <workItem from="1584555474349" duration="330000" />
       <workItem from="1584557624044" duration="25081000" />
       <workItem from="1584892163082" duration="28513000" />
-      <workItem from="1585135573049" duration="54911000" />
+      <workItem from="1585135573049" duration="56319000" />
+      <workItem from="1585511733951" duration="2318000" />
     </task>
     <task id="LOCAL-00001" summary="Fix resourse handlers">
       <created>1584637575878</created>
@@ -735,7 +781,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585339387130</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="OrderController">
+      <created>1585423206882</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585423206882</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -771,48 +824,49 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54911000" />
+    <option name="totallyTimeSpent" value="58637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Designer" />
-      <window_info id="Image Layers" />
-      <window_info id="UI Designer" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Capture Tool" />
-      <window_info id="Learn" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Application Servers" />
-      <window_info anchor="bottom" id="Database Console" />
-      <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32957748" />
-      <window_info anchor="bottom" id="Tail" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Learn" order="6" />
+      <window_info id="Image Layers" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32957748" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.50563383" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50563383" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Database" sideWeight="0.49859154" weight="0.19463088" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Coverage" sideWeight="0.50140846" side_tool="true" weight="0.21879195" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Database Console" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32957748" />
+      <window_info anchor="bottom" id="Java Enterprise" order="14" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="16" />
+      <window_info anchor="bottom" id="Tail" order="17" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24966443" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" sideWeight="0.50140846" side_tool="true" weight="0.21879195" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.49859154" visible="true" weight="0.19463088" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
@@ -895,7 +949,8 @@
     <MESSAGE value="ShopController with few methods" />
     <MESSAGE value="Favorite wine model dao service and test for all" />
     <MESSAGE value="ShopController" />
-    <option name="LAST_COMMIT_MESSAGE" value="ShopController" />
+    <MESSAGE value="OrderController" />
+    <option name="LAST_COMMIT_MESSAGE" value="OrderController" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Auto_Import" />
@@ -998,56 +1053,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/FavoriteWIne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="21" column="40" lean-forward="true" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProjectWineShopAperetifAperetifAperetif">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-94" />
-      </provider>
-    </entry>
-    <entry file="das://a65f36d8-a1ce-432c-96f7-fe365a359ed3/database/Aperetif/schema/public/table/favoritewine">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/CurrentWinePage.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/project/Aperetif/Services/implementations/OrderServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="88" column="65" selection-start-line="88" selection-start-column="65" selection-end-line="88" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Mappers/OrdersMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Config/WebSecurityConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -1069,16 +1074,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/HomeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/enums/TypeWine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="305">
@@ -1093,39 +1088,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/ShopController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="91" column="24" lean-forward="true" selection-start-line="91" selection-end-line="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/WineServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
           <caret line="31" column="27" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="27" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Orders.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Wine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="60" column="21" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/main.js">
       <provider selected="true" editor-type-id="text-editor" />
@@ -1155,20 +1123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a65f36d8-a1ce-432c-96f7-fe365a359ed3/database/Aperetif/schema/public/table/orders">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homePage.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="10" selection-start-line="5" selection-end-line="6" />
         </state>
       </provider>
     </entry>
@@ -1369,20 +1323,125 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/OrderController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/checkoutOrderPage.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="60" column="85" selection-start-line="60" selection-start-column="85" selection-end-line="60" selection-end-column="85" />
+        <state relative-caret-position="187">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/RegistrationController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/homePage.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="10" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="7" lean-forward="true" selection-end-line="14" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/HomeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/checkoutOrderPage.ftl">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/ShopController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        <state relative-caret-position="229">
+          <caret line="91" column="29" selection-start-line="91" selection-end-line="92" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/OrderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="628">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="25" selection-end-line="74" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/WineService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/FavoriteWIne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="38" column="25" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Wine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="68" column="29" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a65f36d8-a1ce-432c-96f7-fe365a359ed3/database/Aperetif/schema/public/table/favoritewine">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://a65f36d8-a1ce-432c-96f7-fe365a359ed3/database/Aperetif/schema/public/table/orders">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ProjectWineShopAperetifAperetifAperetif">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Orders.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/favoritewinePage.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/FavoriteWineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
