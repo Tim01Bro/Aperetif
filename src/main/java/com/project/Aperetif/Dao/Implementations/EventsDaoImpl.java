@@ -39,10 +39,10 @@ public class EventsDaoImpl implements EventsDao {
     }
 
     @Override
-    public Events getEventByName(String name) {
-        String sql = "SELECT * FROM events WHERE nameevent = ?";
+    public List<Events> getEventByName(String name) {
+        String sql = "SELECT * FROM events WHERE nameevent LIKE ?";
         log.info("Get one event by name = " + name);
-        return jdbcTemplate.queryForObject(sql,new EventsMapper(),name);
+        return jdbcTemplate.query(sql,new EventsMapper(),name);
     }
 
     @Override

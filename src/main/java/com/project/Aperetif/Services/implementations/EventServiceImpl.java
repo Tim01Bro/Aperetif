@@ -54,15 +54,10 @@ public class EventServiceImpl implements EventService {
     }
 
     @Override
-    public Events getEventByName(String name) {
+    public List<Events> getEventByName(String name) {
         if(!name.equals("")){
             log.info("Get one event by name = " + name + " with success");
-            Events eventsByName = eventsDao.getEventByName(name);
-            Integer idDetailsEvent = eventsByName.getEventDetailsId();
-            Integer idVenueEvent = eventsByName.getEventsVenueId();
-
-            eventsByName.setEventDetails(eventDetailsService.getEventById(idDetailsEvent));
-            eventsByName.setEventsVenue(eventsVenueService.getEventById(Long.valueOf(idVenueEvent)));
+            List<Events> eventsByName = eventsDao.getEventByName(name);
             return eventsByName;
         }else{
             log.info("Can't get event by name because of illegal argument");

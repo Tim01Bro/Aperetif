@@ -7,19 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="79f68963-225d-4a38-b47e-091d28223d10" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/FavoriteWineController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/RegistrationController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/favoritewinePage.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/pg_temp_1.zkWuFg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/pg_toast.33HYYw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/pg_toast_temp_1.5ixBaA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/dbad30a3-5f94-4111-8370-0b0aa5de1854/storage_v2/_src_/database/Aperetif.SOm1Nw/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/AdminController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/EventsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventlistPage.ftl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventone.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Dao/Interfaces/OrdersDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Dao/Interfaces/OrdersDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Services/interfaces/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/project/Aperetif/Services/interfaces/OrderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectWineShopAperetifAperetifAperetif" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectWineShopAperetifAperetifAperetif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/EventsDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/EventsDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/EventsDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/EventsDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/EventServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/EventServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/EventService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/EventService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/EventsDaoImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/EventsDaoImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Services/implementations/EventServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Services/implementations/EventServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -98,10 +97,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/FavoriteWineController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/EventsController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="359">
-              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+            <state relative-caret-position="526">
+              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -110,62 +109,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ProjectWineShopAperetifAperetifAperetif">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventlistPage.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-454" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Orders.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
+            <state relative-caret-position="119">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/favoritewinePage.ftl">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/EventsDaoImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" column="7" lean-forward="true" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="das://a65f36d8-a1ce-432c-96f7-fe365a359ed3/database/Aperetif/schema/public/table/orders">
-          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-            <state>
-              <filtering enabled="true" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Wine.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="68" column="29" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/FavoriteWIne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="38" column="25" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/checkoutOrderPage.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+            <state relative-caret-position="152">
+              <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -177,10 +133,10 @@
       <list>
         <option value="CSS File" />
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -195,18 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/WineDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/WineService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/WineServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Services/implementations/WineServiceImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/WineDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/FavoriteWine.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/FavoriteWIne.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Mappers/FavoriteWineMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/FavoriteWines.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/FavoriteWinesDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/FavoriteWineDaoImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/FeedBackDaoImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/FavoriteWineDaoImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/FavoriteWineService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/FavoriteWineServiceImpl.java" />
@@ -246,6 +190,18 @@
         <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/RegistrationController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/FavoriteWineController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/favoritewinePage.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/AdminController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventlistPage.ftl.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventone.ftl.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/EventsDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/EventService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/EventServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Services/implementations/EventServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/EventsDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventlistPage.ftl" />
+        <option value="$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/EventsDaoImplTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/EventsController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventone.ftl" />
       </list>
     </option>
   </component>
@@ -274,7 +230,8 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="951" />
+    <option name="x" value="377" />
+    <option name="y" value="212" />
     <option name="width" value="978" />
     <option name="height" value="1039" />
   </component>
@@ -336,7 +293,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Aperetif" type="462c0819:PsiDirectoryNode" />
-              <item name="Model" type="462c0819:PsiDirectoryNode" />
+              <item name="Dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Aperetif" type="b2602c69:ProjectViewProjectNode" />
@@ -345,17 +302,8 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="Aperetif" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Aperetif" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Aperetif" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="Aperetif" type="462c0819:PsiDirectoryNode" />
-              <item name="Services" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="Dao" type="462c0819:PsiDirectoryNode" />
+              <item name="Implementations" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Aperetif" type="b2602c69:ProjectViewProjectNode" />
@@ -472,38 +420,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CheckoutOrderDaoImplTest.findAllCheckoutOrders" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Aperetif" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.project.Aperetif.Dao.Implementations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.CheckoutOrderDaoImplTest" />
-      <option name="METHOD_NAME" value="findAllCheckoutOrders" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CheckoutOrderDaoImplTest.getOneCheckoutOrderById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Aperetif" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.project.Aperetif.Dao.Implementations.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
-      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.CheckoutOrderDaoImplTest" />
-      <option name="METHOD_NAME" value="getOneCheckoutOrderById" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CheckoutOrderDaoImplTest.updateCheckoutOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Aperetif" />
       <extension name="coverage">
@@ -531,6 +447,38 @@
       <option name="PACKAGE_NAME" value="com.project.Aperetif.Services.implementations" />
       <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Services.implementations.CheckoutOrdersServiceImplTest" />
       <option name="METHOD_NAME" value="saveCheckoutOrder" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventsDaoImplTest.getEventByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aperetif" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.Aperetif.Dao.Implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.EventsDaoImplTest" />
+      <option name="METHOD_NAME" value="getEventByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EventsDaoImplTest.saveEvents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Aperetif" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.project.Aperetif.Dao.Implementations.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.project.Aperetif.Dao.Implementations" />
+      <option name="MAIN_CLASS_NAME" value="com.project.Aperetif.Dao.Implementations.EventsDaoImplTest" />
+      <option name="METHOD_NAME" value="saveEvents" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -672,20 +620,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CheckoutOrderDaoImplTest.findAllCheckoutOrders" />
-      <item itemvalue="JUnit.CheckoutOrderDaoImplTest.getOneCheckoutOrderById" />
       <item itemvalue="JUnit.CheckoutOrderDaoImplTest.updateCheckoutOrder" />
       <item itemvalue="JUnit.CheckoutOrderDaoImplTest.deleteCheckoutOrderById" />
       <item itemvalue="JUnit.CheckoutOrdersServiceImplTest.saveCheckoutOrder" />
       <item itemvalue="Tomcat Server.Aperetif" />
+      <item itemvalue="JUnit.EventsDaoImplTest.saveEvents" />
+      <item itemvalue="JUnit.EventsDaoImplTest.getEventByName" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EventsDaoImplTest.getEventByName" />
+        <item itemvalue="JUnit.EventsDaoImplTest.saveEvents" />
         <item itemvalue="JUnit.CheckoutOrdersServiceImplTest.saveCheckoutOrder" />
         <item itemvalue="JUnit.CheckoutOrderDaoImplTest.deleteCheckoutOrderById" />
         <item itemvalue="JUnit.CheckoutOrderDaoImplTest.updateCheckoutOrder" />
-        <item itemvalue="JUnit.CheckoutOrderDaoImplTest.getOneCheckoutOrderById" />
-        <item itemvalue="JUnit.CheckoutOrderDaoImplTest.findAllCheckoutOrders" />
       </list>
     </recent_temporary>
   </component>
@@ -730,7 +678,7 @@
       <workItem from="1584557624044" duration="25081000" />
       <workItem from="1584892163082" duration="28513000" />
       <workItem from="1585135573049" duration="56319000" />
-      <workItem from="1585511733951" duration="2318000" />
+      <workItem from="1585511733951" duration="7478000" />
     </task>
     <task id="LOCAL-00001" summary="Fix resourse handlers">
       <created>1584637575878</created>
@@ -788,22 +736,17 @@
       <option name="project" value="LOCAL" />
       <updated>1585423206882</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="FavotiteWineController">
+      <created>1585514123641</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1585514123641</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CheckoutOrderDaoImplTest - 2020.03.28 at 20h 46m 52s.xml">
-      <configuration name="CheckoutOrderDaoImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutOrderDaoImplTest_saveCheckoutOrder - 2020.03.28 at 20h 47m 25s.xml">
-      <configuration name="CheckoutOrderDaoImplTest.saveCheckoutOrder" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutOrderDaoImplTest_findAllCheckoutOrders - 2020.03.28 at 20h 47m 28s.xml">
-      <configuration name="CheckoutOrderDaoImplTest.findAllCheckoutOrders" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CheckoutOrderDaoImplTest_getOneCheckoutOrderById - 2020.03.28 at 20h 47m 39s.xml">
-      <configuration name="CheckoutOrderDaoImplTest.getOneCheckoutOrderById" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CheckoutOrderDaoImplTest_updateCheckoutOrder - 2020.03.28 at 20h 47m 46s.xml">
       <configuration name="CheckoutOrderDaoImplTest.updateCheckoutOrder" configurationId="JUnit" />
     </history-entry>
@@ -822,9 +765,21 @@
     <history-entry file="CheckoutOrdersServiceImplTest_saveCheckoutOrder - 2020.03.28 at 21h 50m 06s.xml">
       <configuration name="CheckoutOrdersServiceImplTest.saveCheckoutOrder" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="EventsDaoImplTest_saveEvents - 2020.03.30 at 00h 31m 43s.xml">
+      <configuration name="EventsDaoImplTest.saveEvents" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventsDaoImplTest_saveEvents - 2020.03.30 at 00h 32m 28s.xml">
+      <configuration name="EventsDaoImplTest.saveEvents" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventsDaoImplTest_getEventByName - 2020.03.30 at 00h 34m 40s.xml">
+      <configuration name="EventsDaoImplTest.getEventByName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="EventsDaoImplTest_getEventByName - 2020.03.30 at 00h 35m 04s.xml">
+      <configuration name="EventsDaoImplTest.getEventByName" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58637000" />
+    <option name="totallyTimeSpent" value="63797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -864,7 +819,7 @@
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Coverage" order="5" sideWeight="0.50140846" side_tool="true" weight="0.21879195" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Database" order="7" sideWeight="0.49859154" visible="true" weight="0.19463088" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.49859154" visible="true" weight="0.16308725" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info anchor="right" id="Theme Preview" order="9" />
     </layout>
@@ -950,7 +905,9 @@
     <MESSAGE value="Favorite wine model dao service and test for all" />
     <MESSAGE value="ShopController" />
     <MESSAGE value="OrderController" />
-    <option name="LAST_COMMIT_MESSAGE" value="OrderController" />
+    <MESSAGE value="FavotiteWineController" />
+    <option name="LAST_COMMIT_MESSAGE" value="FavotiteWineController" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="71" key="#Auto_Import" />
@@ -1053,86 +1010,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="764">
-          <caret line="103" selection-start-line="103" selection-end-line="103" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/EventDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-272">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/enums/TypeWine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="32" column="39" selection-start-line="32" selection-start-column="39" selection-end-line="32" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/WineDaoImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="66" column="57" lean-forward="true" selection-start-line="66" selection-start-column="57" selection-end-line="66" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/WineServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="31" column="27" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/js/main.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="das://a65f36d8-a1ce-432c-96f7-fe365a359ed3/database/Aperetif/schema/public/table/users">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://a65f36d8-a1ce-432c-96f7-fe365a359ed3/database/Aperetif/schema/public/table/wine">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/OrdersDaoImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="101">
-          <caret line="28" column="42" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/static/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="4141" lean-forward="true" selection-start-line="4141" selection-end-line="4141" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_191/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -1165,13 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/EventsDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="15" column="38" lean-forward="true" selection-start-line="14" selection-start-column="3" selection-end-line="15" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/CheckoutOrderDaoImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="279">
@@ -1195,13 +1065,6 @@
             <element signature="e#429#430#0" expanded="true" />
             <element signature="e#456#457#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/EventsDaoImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="14" selection-start-line="14" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -1288,13 +1151,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopPage.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="34" column="39" lean-forward="true" selection-start-line="33" selection-start-column="3" selection-end-line="34" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/OrdersDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -1361,16 +1217,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/ShopController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="91" column="29" selection-start-line="91" selection-end-line="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="628">
@@ -1409,10 +1255,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="das://a65f36d8-a1ce-432c-96f7-fe365a359ed3/database/Aperetif/schema/public/table/orders">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/FavoriteWineController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1428,6 +1277,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://a65f36d8-a1ce-432c-96f7-fe365a359ed3/database/Aperetif/schema/public/table/orders">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/favoritewinePage.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -1435,10 +1291,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/FavoriteWineController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/AdminController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        <state relative-caret-position="68">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/Events.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="63" column="36" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/EventDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Model/EventDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="47" column="30" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Interfaces/EventsDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/implementations/EventServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="53" column="5" lean-forward="true" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/project/Aperetif/Services/implementations/EventServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="46" column="118" selection-start-line="46" selection-start-column="118" selection-end-line="46" selection-end-column="118" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/ShopController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/WineDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/shopPage.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="3" lean-forward="true" selection-start-line="26" selection-start-column="3" selection-end-line="27" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventlistPage.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Services/interfaces/EventService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/project/Aperetif/Dao/Implementations/EventsDaoImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/eventone.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Dao/Implementations/EventsDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="36" column="48" lean-forward="true" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/project/Aperetif/Controller/EventsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="526">
+          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

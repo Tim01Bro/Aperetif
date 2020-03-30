@@ -8,8 +8,7 @@ import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import java.util.List;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class EventsDaoImplTest {
     private EventsDao eventsDao;
@@ -26,7 +25,7 @@ public class EventsDaoImplTest {
 
     @Test
     public void saveEvents() {
-        Events ev = new Events("teasd","asdsa",1,1);
+        Events ev = new Events("ooooooooo","asdsa",1,1);
         assertTrue(eventsDao.saveEvents(ev) > 0);
     }
 
@@ -38,8 +37,8 @@ public class EventsDaoImplTest {
 
     @Test
     public void getEventByName() {
-        Events ev = eventsDao.getEventByName("teasd");
-        assertNotNull(ev);
+        List<Events> ev = eventsDao.getEventByName("ooooooooo");
+        assertEquals(1, ev.size());
     }
 
     @Test

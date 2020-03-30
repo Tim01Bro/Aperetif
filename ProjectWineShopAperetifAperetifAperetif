@@ -59,3 +59,7 @@
 2020-03-28 20:49:31 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =2
 2020-03-28 20:49:31 INFO  CheckoutOrderDaoImpl:58 - Update CheckoutOrder by id = 2
 2020-03-28 20:49:43 INFO  CheckoutOrderDaoImpl:69 - Delete order by id = 2
+2020-03-30 00:31:43 INFO  EventsDaoImpl:29 - Save events to database to table events
+2020-03-30 00:32:28 INFO  EventsDaoImpl:29 - Save events to database to table events
+2020-03-30 00:34:40 INFO  EventsDaoImpl:44 - Get one event by name = ooooooooo
+2020-03-30 00:35:04 INFO  EventsDaoImpl:44 - Get one event by name = ooooooooo
