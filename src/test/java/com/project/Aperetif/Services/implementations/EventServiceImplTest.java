@@ -2,11 +2,8 @@ package com.project.Aperetif.Services.implementations;
 
 import com.project.Aperetif.Config.SpringConfig;
 import com.project.Aperetif.Dao.Interfaces.EventsDao;
-import com.project.Aperetif.Dao.Interfaces.OrdersDao;
 import com.project.Aperetif.Model.Events;
-import com.project.Aperetif.Model.Orders;
 import com.project.Aperetif.Services.interfaces.EventService;
-import com.project.Aperetif.Services.interfaces.OrderService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -18,7 +15,8 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNull;
 import static org.mockito.Mockito.when;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -46,8 +44,8 @@ public class EventServiceImplTest {
 
     @Test
     public void getEventByName() {
-        when(eventsDao.getEventByName("s")).thenReturn(new Events("s","s",1,1));
-        assertEquals("s",eventService.getEventByName("s").getDescribeEvent());
+        when(eventsDao.getEventByName("s")).thenReturn(Stream.of(new Events("s","s",1,1)).collect(Collectors.toList()));
+        assertEquals("s",eventService.getEventByName("s").get(0).getDescribeEvent());
 
     }
 

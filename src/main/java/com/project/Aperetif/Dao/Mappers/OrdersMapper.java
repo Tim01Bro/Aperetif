@@ -11,7 +11,7 @@ public class OrdersMapper implements RowMapper<Orders> {
     public Orders mapRow(ResultSet resultSet, int i) throws SQLException {
         Orders orders = new Orders();
         orders.setId(resultSet.getLong("id"));
-        orders.setUserId(resultSet.getInt("userid"));
+        orders.setUserId(resultSet.getLong("userid"));
         orders.setWineId(resultSet.getInt("wineid"));
         orders.setDateAdd(resultSet.getString("dateadd"));
         return orders;

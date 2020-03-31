@@ -1,8 +1,6 @@
 package com.project.Aperetif.Model;
 
 import java.util.Objects;
-import java.util.Set;
-
 
 public class Wine {
 
@@ -22,7 +20,12 @@ public class Wine {
 
     private String dateAdded;
 
-    public Wine(Long id,String nameWine, Integer rating,Integer typeWines, String describe, Integer quantity, String filename, String dateAdded) {
+    private Integer price;
+
+
+    public Wine(Long id, String nameWine, Integer rating, Integer typeWines,
+                String describe, Integer quantity, String filename, String dateAdded, Integer price) {
+        this.id = id;
         this.nameWine = nameWine;
         this.rating = rating;
         this.typeWines = typeWines;
@@ -30,10 +33,11 @@ public class Wine {
         this.quantity = quantity;
         this.filename = filename;
         this.dateAdded = dateAdded;
-        this.id = id;
+        this.price = price;
     }
 
-    public Wine(String nameWine, Integer rating, Integer typeWines, String describe, Integer quantity, String filename, String dateAdded) {
+    public Wine(String nameWine, Integer rating, Integer typeWines, String describe,
+                Integer quantity, String filename, String dateAdded, Integer price) {
         this.nameWine = nameWine;
         this.rating = rating;
         this.typeWines = typeWines;
@@ -41,11 +45,19 @@ public class Wine {
         this.quantity = quantity;
         this.filename = filename;
         this.dateAdded = dateAdded;
+        this.price = price;
     }
 
     public Wine() {
     }
 
+    public Integer getPrice() {
+        return price;
+    }
+
+    public void setPrice(Integer price) {
+        this.price = price;
+    }
     public Long getId() {
         return id;
     }
@@ -121,6 +133,7 @@ public class Wine {
                 ", quantity=" + quantity +
                 ", filename='" + filename + '\'' +
                 ", dateAdded='" + dateAdded + '\'' +
+                ", price='" + price + '\'' +
                 '}';
     }
 
@@ -136,11 +149,12 @@ public class Wine {
                 Objects.equals(describe, wine.describe) &&
                 Objects.equals(quantity, wine.quantity) &&
                 Objects.equals(filename, wine.filename) &&
-                Objects.equals(dateAdded, wine.dateAdded);
+                Objects.equals(dateAdded, wine.dateAdded) &&
+                Objects.equals(price, wine.price);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, nameWine, rating, typeWines, describe, quantity, filename, dateAdded);
+        return Objects.hash(id, nameWine, rating, typeWines, describe, quantity, filename, dateAdded, price);
     }
 }

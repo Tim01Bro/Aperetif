@@ -25,9 +25,9 @@ public class OrdersDaoImpl implements OrdersDao {
 
     @Override
     public int saveOrder(Orders orders) {
-        String sql = "INSERT INTO orders(id, userid, wineid, dateadd) VALUES (?,?,?,?)";
+        String sql = "INSERT INTO orders(userid, wineid, dateadd) VALUES (?,?,?)";
         log.info("Save order to database to table Orders");
-        return jdbcTemplate.update(sql,orders.getId(),orders.getUserId(),orders.getWineId(),Date.valueOf(orders.getDateAdd()));
+        return jdbcTemplate.update(sql,orders.getUserId(),orders.getWineId(),Date.valueOf(orders.getDateAdd()));
     }
 
     @Override
@@ -63,6 +63,13 @@ public class OrdersDaoImpl implements OrdersDao {
         String sql = "DELETE FROM Orders WHERE id = ?";
         log.info("Delete order by id =" + idorder);
         return jdbcTemplate.update(sql,idorder);
+    }
+
+    @Override
+    public int deleteAllByUserId(Long userId) {
+        String sql = "DELETE FROM Orders WHERE userid = ?";
+        log.info("Delete order by id user = " + userId);
+        return jdbcTemplate.update(sql,userId);
     }
 
 }

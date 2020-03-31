@@ -17,4 +17,6 @@ public interface UserDao {
 
     int update(Users users);
 
+    boolean ExistsUser(String username);
+
 }

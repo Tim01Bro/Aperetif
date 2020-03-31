@@ -10,7 +10,7 @@ public interface EventsDao {
 
     Events getEventById(Long id);
 
-    Events getEventByName(String name);
+    List<Events> getEventByName(String name);
 
     List<Events> findAll();
 

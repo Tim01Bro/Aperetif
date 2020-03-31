@@ -27,14 +27,14 @@ public class EventDetailsDaoImplTest {
 
     @Test
     public void saveEvents() {
-        EventDetails ev = new EventDetails(3L,"123","123",123, CategoryEvent.WINE_TASTING);
+        EventDetails ev = new EventDetails("123","123",123, CategoryEvent.WINE_TASTING);
         assertTrue(eventsDetailsDao.saveEvents(ev)>0);
-        System.out.println(ev.toString());
+
     }
 
     @Test
     public void getEventById() {
-        EventDetails ev = eventsDetailsDao.getEventById(2L);
+        EventDetails ev = eventsDetailsDao.getEventById(2);
         assertNotNull(ev);
     }
 
@@ -45,7 +45,7 @@ public class EventDetailsDaoImplTest {
     }
     @Test
     public void updateEvent() {
-        EventDetails ev = eventsDetailsDao.getEventById(3L);
+        EventDetails ev = eventsDetailsDao.getEventById(3);
         ev.setTimeStart("23asdasdsadasd2");
         assertTrue(eventsDetailsDao.updateEvent(ev) > 0);
     }

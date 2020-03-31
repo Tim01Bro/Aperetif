@@ -1,6 +1,5 @@
 package com.project.Aperetif.Dao.Implementations;
 
-import com.project.Aperetif.Dao.Interfaces.FeedBackDao;
 import com.project.Aperetif.Dao.Interfaces.OrdersDao;
 import com.project.Aperetif.Model.Orders;
 import org.junit.Before;
@@ -8,10 +7,10 @@ import org.junit.Test;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.List;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 public class OrdersDaoImplTest {
     private OrdersDao ordersDao;
@@ -27,7 +26,7 @@ public class OrdersDaoImplTest {
     }
     @Test
     public void saveOrder() {
-        Orders orders = new Orders(1L,1,1,  LocalDate.now().toString());
+        Orders orders = new Orders(1L,8L,9,  LocalDate.now().toString());
         assertTrue(ordersDao.saveOrder(orders) > 0);
     }
 
@@ -52,7 +51,7 @@ public class OrdersDaoImplTest {
     @Test
     public void updateOrder() {
         Orders order = ordersDao.getOneOrders(1L);
-        order.setUserId(3);
+        order.setUserId(3L);
         assertTrue(ordersDao.updateOrder(order) > 0);
      }
 

@@ -27,7 +27,7 @@ public class WineDaoImplTest {
 
     @Test
     public void saveWine() {
-        Wine wine = new Wine(4L,"",1, TypeWine.BERRY.ordinal(),"",12,"", LocalDate.now().toString());
+        Wine wine = new Wine("asdasd",1, TypeWine.BERRY.ordinal(),"asdasdasdsadas",12,"testWineImg.jpg", LocalDate.now().toString(),25);
         assertTrue(wineDao.saveWine(wine) > 0);
 
     }
@@ -40,9 +40,9 @@ public class WineDaoImplTest {
 
     @Test
     public void getWineByName() {
-        Wine wine = wineDao.getWineByName("");
-        assertNotNull(wine);
-    }
+        List<Wine>wines = wineDao.getWineByName("asdasd");
+        assertTrue(wines.size()>0);
+      }
 
     @Test
     public void findAll() {
@@ -54,10 +54,24 @@ public class WineDaoImplTest {
     public void deleteWine() {
         assertTrue(wineDao.deleteWine(1L)>0);
     }
+
     @Test
     public void updateWine() {
         Wine wine = wineDao.getWineById(1L);
         wine.setNameWine("JACKY");
         assertTrue(wineDao.update(wine)>0);
     }
+
+    @Test
+    public void findbyType(){
+        List<Wine>wines = wineDao.findByType(TypeWine.BERRY);
+        assertTrue(wines.size()>0);
+    }
+
+    @Test
+    public void findByPrice(){
+        List<Wine>wines = wineDao.findByLimitPrice(12,18);
+        assertTrue(wines.size()>0);
+     }
+
 }

@@ -18,4 +18,6 @@ public interface OrderService {
 
     int deleteOrder(Long idorder);
 
+    int deleteAllByUserId(Long userId);
+
 }
