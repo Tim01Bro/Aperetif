@@ -3,9 +3,9 @@ package com.project.Aperetif.Dao.Implementations;
 import com.project.Aperetif.Dao.Interfaces.UserDao;
 import com.project.Aperetif.Dao.Mappers.UserMapper;
 import com.project.Aperetif.Model.Users;
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.apache.log4j.Logger;
 
 import javax.sql.DataSource;
 import java.util.List;
@@ -64,5 +64,12 @@ public class UserDaoImpl implements UserDao {
         log.info("Update users");
         return jdbcTemplate.update(sql,users.getUsername(),
                 users.getEmail(),users.getPassword(),users.getRole().getIndexForDb(),users.getId());
+    }
+
+    @Override
+    public boolean ExistsUser(String username) {
+        String sql = "SELECT EXISTS(SELECT * from users where username = ?)";
+        log.info("Check exsist user by username = " + username);
+        return jdbcTemplate.queryForObject(sql,Boolean.class,username);
     }
 }

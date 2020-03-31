@@ -34,7 +34,7 @@ public class UserServiceImplTest {
     @Test
     public void saveUser() {
         when(userDao.saveUser(new Users("Tim","Josd","asda",Role.USER))).thenReturn(1);
-        assertEquals(1,userService.saveUser(new Users("Tim","Josd","asda",Role.USER)));
+        assertEquals(1,userService.saveUser(new Users("Tim","Josd","asda",Role.USER),"asda"));
     }
 
     @Test
@@ -71,7 +71,12 @@ public class UserServiceImplTest {
     @Test
     public void FailedSave(){
         when(userDao.saveUser(new Users("","Josd","asda",Role.USER))).thenReturn(0);
-        assertEquals(0,userService.saveUser(new Users("","Josd","asda",Role.USER)));
+        assertEquals(0,userService.saveUser(new Users("","Josd","asda",Role.USER),"asdaasd"));
+        Users user = new Users("sds","sdasad","sda",Role.USER);
+        System.out.println(!user.getUsername().equals("") &&
+                !user.getPassword().equals("")&&!user.getEmail().equals("")
+                &&user.getRole()!=null);
+
     }
 
     @Test

@@ -63,3 +63,8 @@
 2020-03-30 00:32:28 INFO  EventsDaoImpl:29 - Save events to database to table events
 2020-03-30 00:34:40 INFO  EventsDaoImpl:44 - Get one event by name = ooooooooo
 2020-03-30 00:35:04 INFO  EventsDaoImpl:44 - Get one event by name = ooooooooo
+2020-03-31 11:55:46 INFO  UserServiceImpl:66 - Find user by username = Tim with success
+2020-03-31 11:55:46 INFO  UserServiceImpl:44 - Save user with success
+2020-03-31 12:14:55 INFO  UserServiceImpl:47 - Can't save user because of illegal argument
+2020-03-31 12:40:05 INFO  UserDaoImpl:72 - Check exsist user by username = aza
+2020-03-31 12:48:34 INFO  UserDaoImpl:42 - Get user by name = Tim

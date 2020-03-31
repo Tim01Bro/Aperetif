@@ -36,10 +36,11 @@ public class UserServiceImpl implements UserService, UserDetailsService {
     }
 
     @Override
-    public int saveUser(Users user) {
+    public int saveUser(Users user,String confirmPassword) {
         if(!user.getUsername().equals("") &&
                 !user.getPassword().equals("")&&!user.getEmail().equals("")
-                &&user.getRole()!=null){
+                &&user.getRole()!=null
+                &&!userDao.ExistsUser(user.getUsername())&& confirmPassword.equals(user.getPassword())){
             log.info("Save user with success");
             return userDao.saveUser(user);
         }else {
@@ -100,6 +101,7 @@ public class UserServiceImpl implements UserService, UserDetailsService {
         }
 
     }
+
 
 
 

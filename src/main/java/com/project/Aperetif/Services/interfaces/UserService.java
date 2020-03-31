@@ -5,7 +5,7 @@ import com.project.Aperetif.Model.Users;
 import java.util.List;
 
 public interface UserService {
-    int saveUser(Users user);
+    int saveUser(Users user,String confirmPassword);
 
     Users getUserById(Long id);
 

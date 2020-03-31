@@ -1,8 +1,8 @@
 package com.project.Aperetif.Dao.Implementations;
 
 import com.project.Aperetif.Dao.Interfaces.UserDao;
-import com.project.Aperetif.Model.enums.Role;
 import com.project.Aperetif.Model.Users;
+import com.project.Aperetif.Model.enums.Role;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -60,6 +60,11 @@ public class UserDaoImplTest {
         Users users = userDao.getUserById(1L);
         users.setUsername("JO");
         Assert.assertTrue(userDao.update(users) > 0);
+    }
+
+    @Test
+    public void existsUser(){
+        Assert.assertFalse(userDao.ExistsUser("aza"));
     }
 
 
