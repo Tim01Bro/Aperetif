@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Aperetif-About-Us</title>
+    <title>Aperetif-checkout-order</title>
     <link rel="stylesheet" href="css/style.css"/>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 

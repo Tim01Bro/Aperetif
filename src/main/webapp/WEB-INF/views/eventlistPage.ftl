@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Aperetif-event-list</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
 </head>
 <body>
     <#list eventList as el>

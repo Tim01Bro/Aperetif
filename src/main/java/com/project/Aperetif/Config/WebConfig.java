@@ -1,5 +1,6 @@
 package com.project.Aperetif.Config;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
@@ -15,6 +16,9 @@ import org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver;
 @EnableWebMvc
 @ComponentScan(basePackages = "com.project.Aperetif")
 public class WebConfig implements WebMvcConfigurer {
+
+    @Value("${upload.path}")
+    private String uploadPath;
 
     @Bean
     public ViewResolver getViewResolver() {
@@ -44,6 +48,9 @@ public class WebConfig implements WebMvcConfigurer {
 
         registry.addResourceHandler("/fonts/**")
                 .addResourceLocations("/WEB-INF/static/fonts/");
+
+        registry.addResourceHandler("/wineImg/**")
+                .addResourceLocations("file://" + uploadPath + "/");
 
     }
 

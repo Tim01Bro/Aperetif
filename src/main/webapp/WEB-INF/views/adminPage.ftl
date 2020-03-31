@@ -2,13 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
-    <title>Aperetif-event</title>
+    <title>Aperetif-admin-page</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
 
 </head>
-
 <body>
-    Events
+    asdasd
 </body>
 </html>

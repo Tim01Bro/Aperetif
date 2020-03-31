@@ -2,7 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Aperetif-registration</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
 </head>
 <body>
 <span style="font-size: 30px; color: #000000;">

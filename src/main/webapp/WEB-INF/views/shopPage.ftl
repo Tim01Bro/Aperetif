@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>Aperetif-shop-list</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
 </head>
 <body>
 <#list Wines as wn>

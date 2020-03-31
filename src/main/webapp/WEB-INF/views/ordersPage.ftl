@@ -2,8 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Aperetif-orders</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
 
 </head>
 <body>

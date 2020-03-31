@@ -6,8 +6,14 @@ import com.project.Aperetif.Model.enums.TypeWine;
 import com.project.Aperetif.Services.interfaces.WineService;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.web.multipart.MultipartFile;
 
+import java.io.File;
+import java.io.IOException;
+import java.time.LocalDate;
 import java.util.List;
+import java.util.UUID;
 
 public class WineServiceImpl implements WineService {
 
@@ -16,12 +22,16 @@ public class WineServiceImpl implements WineService {
     @Autowired
     private WineDao wineDao;
 
+    @Value("${upload.path}")
+    private String uploadPath;
+
     @Override
     public int saveWine(Wine wine) {
         if(!wine.getNameWine().equals("") && !wine.getDescribe().equals("") &&
            !wine.getDateAdded().equals("")&& !wine.getFilename().equals("")){
             log.info("Save wine with success");
-            return wineDao.saveWine(wine);
+            wine.setDateAdded(LocalDate.now().toString());
+             return wineDao.saveWine(wine);
         }else {
             log.info("Can't save wine because of illegal argument");
             return 0;
@@ -99,5 +109,22 @@ public class WineServiceImpl implements WineService {
             return null;
         }
 
+    }
+
+    public void saveFile(Wine wine, MultipartFile file) throws IOException {
+        if (file != null && !file.getOriginalFilename().isEmpty()) {
+            File uploadDir = new File(uploadPath);
+
+            if (uploadDir.exists()) {
+                uploadDir.mkdir();
+            }
+
+            String uuidFile = UUID.randomUUID().toString();//Уникальное имя файла
+            String resultFileName = uuidFile + "." + file.getOriginalFilename();
+
+            file.transferTo(new File(uploadPath + "/" + resultFileName));
+
+            wine.setFilename(resultFileName);
+        }
     }
 }
