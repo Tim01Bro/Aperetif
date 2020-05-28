@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/Aperetif.iml" filepath="$PROJECT_DIR$/.idea/Aperetif.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Aperetif.iml" filepath="$PROJECT_DIR$/Aperetif.iml" />
     </modules>
   </component>
 </project>

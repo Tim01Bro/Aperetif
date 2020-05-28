@@ -1,0 +1,70 @@
+2020-03-25 15:54:22 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-25 15:54:39 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-25 15:54:58 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-25 15:55:01 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-25 15:55:04 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-25 15:55:15 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-25 15:55:57 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-26 02:23:20 INFO  EventDetailsDaoImpl:28 - Save eventdetails to database to table eventdetails
+2020-03-26 02:23:59 INFO  EventDetailsDaoImpl:28 - Save eventdetails to database to table eventdetails
+2020-03-26 02:24:14 INFO  EventDetailsDaoImpl:28 - Save eventdetails to database to table eventdetails
+2020-03-26 02:25:11 INFO  EventsDaoImpl:29 - Save events to database to table events
+2020-03-26 02:25:36 INFO  EventsDaoImpl:29 - Save events to database to table events
+2020-03-26 02:28:15 INFO  EventsDaoImpl:51 - Get all events
+2020-03-26 02:29:39 INFO  EventVenueDaoImpl:29 - Save event venue to database to table eventsvenue
+2020-03-26 17:11:59 INFO  WineDaoImpl:28 - Save wine to database to table wine
+2020-03-26 17:27:09 INFO  WineDaoImpl:78 - Update wine
+2020-03-26 17:40:36 INFO  WineDaoImpl:29 - Save wine to database to table wine
+2020-03-26 17:41:06 INFO  WineDaoImpl:29 - Save wine to database to table wine
+2020-03-26 17:42:41 INFO  WineDaoImpl:29 - Save wine to database to table wine
+2020-03-26 17:43:36 INFO  WineDaoImpl:29 - Save wine to database to table wine
+2020-03-26 17:43:53 INFO  WineDaoImpl:29 - Save wine to database to table wine
+2020-03-26 17:44:01 INFO  WineDaoImpl:29 - Save wine to database to table wine
+2020-03-26 17:44:24 INFO  WineDaoImpl:85 - Find all wine by limit price
+2020-03-26 17:44:36 INFO  WineDaoImpl:85 - Find all wine by limit price
+2020-03-26 21:41:58 INFO  WineDaoImpl:45 - Get wine by name =
+2020-03-26 21:42:28 INFO  WineDaoImpl:45 - Get wine by name =
+2020-03-26 21:43:38 INFO  WineDaoImpl:45 - Get wine by name =
+2020-03-26 21:44:04 INFO  WineDaoImpl:45 - Get wine by name =asdasd
+2020-03-26 22:05:17 INFO  WineDaoImpl:45 - Get wine by name =asdasd
+2020-03-26 22:57:07 INFO  FavoriteWineDaoImpl:28 - Add favorite wine by wine id = 7and user id by = 10
+2020-03-26 22:57:23 INFO  FavoriteWineDaoImpl:28 - Add favorite wine by wine id = 10and user id by = 7
+2020-03-26 22:59:23 INFO  FavoriteWineDaoImpl:37 - Get all favoorite wine
+2020-03-26 22:59:28 INFO  FavoriteWineDaoImpl:44 - Get all faworite wine by user id = 7
+2020-03-26 22:59:32 INFO  FavoriteWineDaoImpl:51 - Delete favorite wine by id = 1
+2020-03-26 22:59:46 INFO  FavoriteWineDaoImpl:51 - Delete favorite wine by id = 10
+2020-03-26 23:29:01 INFO  FavoriteWineServiceImpl:38 - Get all favorite wine by user id
+2020-03-26 23:29:01 INFO  FavoriteWineServiceImpl:20 - Save favorite wine by user id and wine id
+2020-03-26 23:29:01 INFO  FavoriteWineServiceImpl:31 - Get all favorite wine
+2020-03-26 23:29:01 INFO  FavoriteWineServiceImpl:50 - Delete favorite wine by id = 1
+2020-03-27 21:29:14 INFO  WineDaoImpl:78 - Find all wine by type
+2020-03-27 21:29:23 INFO  WineDaoImpl:78 - Find all wine by type
+2020-03-27 21:29:38 INFO  WineDaoImpl:78 - Find all wine by type
+2020-03-27 21:31:11 INFO  WineDaoImpl:78 - Find all wine by type
+2020-03-28 19:44:16 INFO  Orders:29 - Save order to database to table Orders
+2020-03-28 19:44:50 INFO  Orders:29 - Save order to database to table Orders
+2020-03-28 20:46:51 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =1
+2020-03-28 20:46:52 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =1
+2020-03-28 20:46:52 INFO  CheckoutOrderDaoImpl:36 - Get all checkoutOrders
+2020-03-28 20:46:52 INFO  CheckoutOrderDaoImpl:27 - Save checkoutorder to database to table CheckoutOrders
+2020-03-28 20:46:52 INFO  CheckoutOrderDaoImpl:43 - Get all checkoutorders by user = s
+2020-03-28 20:46:52 INFO  CheckoutOrderDaoImpl:69 - Delete order by id = 1
+2020-03-28 20:47:24 INFO  CheckoutOrderDaoImpl:27 - Save checkoutorder to database to table CheckoutOrders
+2020-03-28 20:47:27 INFO  CheckoutOrderDaoImpl:36 - Get all checkoutOrders
+2020-03-28 20:47:38 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =2
+2020-03-28 20:47:45 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =2
+2020-03-28 20:47:45 INFO  CheckoutOrderDaoImpl:58 - Update CheckoutOrder by id = 2
+2020-03-28 20:48:36 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =2
+2020-03-28 20:48:36 INFO  CheckoutOrderDaoImpl:58 - Update CheckoutOrder by id = 2
+2020-03-28 20:49:31 INFO  CheckoutOrderDaoImpl:50 - Get one checkoutorder by id =2
+2020-03-28 20:49:31 INFO  CheckoutOrderDaoImpl:58 - Update CheckoutOrder by id = 2
+2020-03-28 20:49:43 INFO  CheckoutOrderDaoImpl:69 - Delete order by id = 2
+2020-03-30 00:31:43 INFO  EventsDaoImpl:29 - Save events to database to table events
+2020-03-30 00:32:28 INFO  EventsDaoImpl:29 - Save events to database to table events
+2020-03-30 00:34:40 INFO  EventsDaoImpl:44 - Get one event by name = ooooooooo
+2020-03-30 00:35:04 INFO  EventsDaoImpl:44 - Get one event by name = ooooooooo
+2020-03-31 11:55:46 INFO  UserServiceImpl:66 - Find user by username = Tim with success
+2020-03-31 11:55:46 INFO  UserServiceImpl:44 - Save user with success
+2020-03-31 12:14:55 INFO  UserServiceImpl:47 - Can't save user because of illegal argument
+2020-03-31 12:40:05 INFO  UserDaoImpl:72 - Check exsist user by username = aza
+2020-03-31 12:48:34 INFO  UserDaoImpl:42 - Get user by name = Tim
